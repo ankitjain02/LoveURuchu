@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC4826B31B2082AF001215CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B21B2082AF001215CB /* main.m */; };
+		BC4826B61B2082AF001215CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B51B2082AF001215CB /* AppDelegate.m */; };
+		BC4826B91B2082AF001215CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B81B2082AF001215CB /* ViewController.m */; };
+		BC4826BC1B2082AF001215CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4826BA1B2082AF001215CB /* Main.storyboard */; };
+		BC4826BE1B2082AF001215CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4826BD1B2082AF001215CB /* Images.xcassets */; };
+		BC4826C11B2082AF001215CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4826BF1B2082AF001215CB /* LaunchScreen.xib */; };
+		BC4826CD1B2082AF001215CB /* Love_U_RuchuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826CC1B2082AF001215CB /* Love_U_RuchuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC4826C71B2082AF001215CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC4826A51B2082AF001215CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC4826AC1B2082AF001215CB;
+			remoteInfo = "Love U Ruchu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC4826AD1B2082AF001215CB /* Love U Ruchu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love U Ruchu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4826B11B2082AF001215CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4826B21B2082AF001215CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC4826B41B2082AF001215CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC4826B51B2082AF001215CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC4826B71B2082AF001215CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC4826B81B2082AF001215CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC4826BB1B2082AF001215CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC4826BD1B2082AF001215CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC4826C01B2082AF001215CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC4826C61B2082AF001215CB /* Love U RuchuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Love U RuchuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4826CB1B2082AF001215CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4826CC1B2082AF001215CB /* Love_U_RuchuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Love_U_RuchuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC4826AA1B2082AF001215CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4826C31B2082AF001215CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC4826A41B2082AF001215CB = {
+			isa = PBXGroup;
+			children = (
+				BC4826AF1B2082AF001215CB /* Love U Ruchu */,
+				BC4826C91B2082AF001215CB /* Love U RuchuTests */,
+				BC4826AE1B2082AF001215CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC4826AE1B2082AF001215CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC4826AD1B2082AF001215CB /* Love U Ruchu.app */,
+				BC4826C61B2082AF001215CB /* Love U RuchuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC4826AF1B2082AF001215CB /* Love U Ruchu */ = {
+			isa = PBXGroup;
+			children = (
+				BC4826B41B2082AF001215CB /* AppDelegate.h */,
+				BC4826B51B2082AF001215CB /* AppDelegate.m */,
+				BC4826B71B2082AF001215CB /* ViewController.h */,
+				BC4826B81B2082AF001215CB /* ViewController.m */,
+				BC4826BA1B2082AF001215CB /* Main.storyboard */,
+				BC4826BD1B2082AF001215CB /* Images.xcassets */,
+				BC4826BF1B2082AF001215CB /* LaunchScreen.xib */,
+				BC4826B01B2082AF001215CB /* Supporting Files */,
+			);
+			path = "Love U Ruchu";
+			sourceTree = "<group>";
+		};
+		BC4826B01B2082AF001215CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC4826B11B2082AF001215CB /* Info.plist */,
+				BC4826B21B2082AF001215CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC4826C91B2082AF001215CB /* Love U RuchuTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC4826CC1B2082AF001215CB /* Love_U_RuchuTests.m */,
+				BC4826CA1B2082AF001215CB /* Supporting Files */,
+			);
+			path = "Love U RuchuTests";
+			sourceTree = "<group>";
+		};
+		BC4826CA1B2082AF001215CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC4826CB1B2082AF001215CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC4826AC1B2082AF001215CB /* Love U Ruchu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4826D01B2082AF001215CB /* Build configuration list for PBXNativeTarget "Love U Ruchu" */;
+			buildPhases = (
+				BC4826A91B2082AF001215CB /* Sources */,
+				BC4826AA1B2082AF001215CB /* Frameworks */,
+				BC4826AB1B2082AF001215CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Love U Ruchu";
+			productName = "Love U Ruchu";
+			productReference = BC4826AD1B2082AF001215CB /* Love U Ruchu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC4826C51B2082AF001215CB /* Love U RuchuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4826D31B2082AF001215CB /* Build configuration list for PBXNativeTarget "Love U RuchuTests" */;
+			buildPhases = (
+				BC4826C21B2082AF001215CB /* Sources */,
+				BC4826C31B2082AF001215CB /* Frameworks */,
+				BC4826C41B2082AF001215CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC4826C81B2082AF001215CB /* PBXTargetDependency */,
+			);
+			name = "Love U RuchuTests";
+			productName = "Love U RuchuTests";
+			productReference = BC4826C61B2082AF001215CB /* Love U RuchuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC4826A51B2082AF001215CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ankit Jain";
+				TargetAttributes = {
+					BC4826AC1B2082AF001215CB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BC4826C51B2082AF001215CB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BC4826AC1B2082AF001215CB;
+					};
+				};
+			};
+			buildConfigurationList = BC4826A81B2082AF001215CB /* Build configuration list for PBXProject "Love U Ruchu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC4826A41B2082AF001215CB;
+			productRefGroup = BC4826AE1B2082AF001215CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC4826AC1B2082AF001215CB /* Love U Ruchu */,
+				BC4826C51B2082AF001215CB /* Love U RuchuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC4826AB1B2082AF001215CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4826BC1B2082AF001215CB /* Main.storyboard in Resources */,
+				BC4826C11B2082AF001215CB /* LaunchScreen.xib in Resources */,
+				BC4826BE1B2082AF001215CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4826C41B2082AF001215CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC4826A91B2082AF001215CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4826B91B2082AF001215CB /* ViewController.m in Sources */,
+				BC4826B61B2082AF001215CB /* AppDelegate.m in Sources */,
+				BC4826B31B2082AF001215CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4826C21B2082AF001215CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4826CD1B2082AF001215CB /* Love_U_RuchuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC4826C81B2082AF001215CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC4826AC1B2082AF001215CB /* Love U Ruchu */;
+			targetProxy = BC4826C71B2082AF001215CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC4826BA1B2082AF001215CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC4826BB1B2082AF001215CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC4826BF1B2082AF001215CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC4826C01B2082AF001215CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC4826CE1B2082AF001215CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC4826CF1B2082AF001215CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC4826D11B2082AF001215CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Love U Ruchu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC4826D21B2082AF001215CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Love U Ruchu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC4826D41B2082AF001215CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Love U RuchuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love U Ruchu.app/Love U Ruchu";
+			};
+			name = Debug;
+		};
+		BC4826D51B2082AF001215CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Love U RuchuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love U Ruchu.app/Love U Ruchu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC4826A81B2082AF001215CB /* Build configuration list for PBXProject "Love U Ruchu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4826CE1B2082AF001215CB /* Debug */,
+				BC4826CF1B2082AF001215CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4826D01B2082AF001215CB /* Build configuration list for PBXNativeTarget "Love U Ruchu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4826D11B2082AF001215CB /* Debug */,
+				BC4826D21B2082AF001215CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC4826D31B2082AF001215CB /* Build configuration list for PBXNativeTarget "Love U RuchuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4826D41B2082AF001215CB /* Debug */,
+				BC4826D51B2082AF001215CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC4826A51B2082AF001215CB /* Project object */;
+}
