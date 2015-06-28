@@ -1,0 +1,22 @@
+PODS:
+  - DGActivityIndicatorView (1.0)
+  - FSDAirportFlipLabel (0.1.0)
+  - MZTimerLabel (0.5.2)
+  - RNBlurredSideViewController (1.0.2)
+  - SWBufferedToast (0.1.5)
+
+DEPENDENCIES:
+  - DGActivityIndicatorView
+  - FSDAirportFlipLabel
+  - MZTimerLabel
+  - RNBlurredSideViewController
+  - SWBufferedToast
+
+SPEC CHECKSUMS:
+  DGActivityIndicatorView: 980091f8d8cc647a1af7804660272e64aef9e516
+  FSDAirportFlipLabel: 05a6bb9cefa3694f57284bb99009c07bec7459ca
+  MZTimerLabel: 1bce6b93ec9f017fffad7ea7ee2bc721b53b64ee
+  RNBlurredSideViewController: de895d7f7ba4fd5ecc8f2a3cb0a6b43ccc822e28
+  SWBufferedToast: 276c19272fc588f4c6de7218aedb39423407d7a9
+
+COCOAPODS: 0.37.2

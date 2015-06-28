@@ -7,13 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CE1454F083B3155DAF64F22 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E03736C2E65696C6051BBC /* libPods.a */; };
 		BC4826B31B2082AF001215CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B21B2082AF001215CB /* main.m */; };
 		BC4826B61B2082AF001215CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B51B2082AF001215CB /* AppDelegate.m */; };
-		BC4826B91B2082AF001215CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B81B2082AF001215CB /* ViewController.m */; };
-		BC4826BC1B2082AF001215CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4826BA1B2082AF001215CB /* Main.storyboard */; };
+		BC4826B91B2082AF001215CB /* JuneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B81B2082AF001215CB /* JuneViewController.m */; };
 		BC4826BE1B2082AF001215CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4826BD1B2082AF001215CB /* Images.xcassets */; };
-		BC4826C11B2082AF001215CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4826BF1B2082AF001215CB /* LaunchScreen.xib */; };
 		BC4826CD1B2082AF001215CB /* Love_U_RuchuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826CC1B2082AF001215CB /* Love_U_RuchuTests.m */; };
+		BC4826DB1B21DEC1001215CB /* FlipMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826DA1B21DEC1001215CB /* FlipMessageCell.m */; };
+		BC4826EB1B233070001215CB /* CNPGridMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826EA1B233070001215CB /* CNPGridMenu.m */; };
+		BC4826F21B259909001215CB /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826F11B259909001215CB /* InitialViewController.m */; };
+		BC4827071B25B2DD001215CB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826F51B25B2DD001215CB /* background.png */; };
+		BC4827081B25B2DD001215CB /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826F61B25B2DD001215CB /* background@2x.png */; };
+		BC4827091B25B2DD001215CB /* background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826F71B25B2DD001215CB /* background@3x.png */; };
+		BC48270A1B25B2DD001215CB /* gears 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826F81B25B2DD001215CB /* gears 1.png */; };
+		BC48270B1B25B2DD001215CB /* gears 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826F91B25B2DD001215CB /* gears 1@2x.png */; };
+		BC48270C1B25B2DD001215CB /* gears 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826FA1B25B2DD001215CB /* gears 1@3x.png */; };
+		BC48270D1B25B2DD001215CB /* gears 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826FB1B25B2DD001215CB /* gears 2.png */; };
+		BC48270E1B25B2DD001215CB /* gears 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826FC1B25B2DD001215CB /* gears 2@2x.png */; };
+		BC48270F1B25B2DD001215CB /* gears 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826FD1B25B2DD001215CB /* gears 2@3x.png */; };
+		BC4827101B25B2DD001215CB /* gears 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826FE1B25B2DD001215CB /* gears 3.png */; };
+		BC4827111B25B2DD001215CB /* gears 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4826FF1B25B2DD001215CB /* gears 3@2x.png */; };
+		BC4827121B25B2DD001215CB /* gears 3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4827001B25B2DD001215CB /* gears 3@3x.png */; };
+		BC4827131B25B2DD001215CB /* imgDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4827011B25B2DD001215CB /* imgDemo.png */; };
+		BC4827141B25B2DD001215CB /* Layer 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4827021B25B2DD001215CB /* Layer 1.png */; };
+		BC4827151B25B2DD001215CB /* Layer 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4827031B25B2DD001215CB /* Layer 1@2x.png */; };
+		BC4827161B25B2DD001215CB /* Layer 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4827041B25B2DD001215CB /* Layer 1@3x.png */; };
+		BC4827171B25B2DD001215CB /* VMGearLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4827061B25B2DD001215CB /* VMGearLoadingView.m */; };
+		BC48271D1B25C07F001215CB /* Messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC48271C1B25C07F001215CB /* Messages.plist */; };
+		BC4827271B25CB87001215CB /* VPRubberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4827231B25CB87001215CB /* VPRubberCell.m */; };
+		BC4827281B25CB87001215CB /* VPRubberLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4827251B25CB87001215CB /* VPRubberLayout.m */; };
+		BC67E4271B3F16C400CC2DF7 /* VMButtonCircleFun.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67E4261B3F16C400CC2DF7 /* VMButtonCircleFun.m */; };
+		BC67E42A1B3F192700CC2DF7 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67E4291B3F192700CC2DF7 /* SplashViewController.m */; };
+		BC8C87521B3E6A8700DA4672 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8C87511B3E6A8700DA4672 /* MessagesViewController.m */; };
+		BCAF7A071B3EF87B005A2A16 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A061B3EF87B005A2A16 /* BaseViewController.m */; };
+		BCAF7A0F1B3EF915005A2A16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4826BF1B2082AF001215CB /* LaunchScreen.xib */; };
+		BCAF7A101B3EF91E005A2A16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3CBB381B3E87020002818E /* Main.storyboard */; };
+		BCAF7A1E1B3EFD1F005A2A16 /* BlurMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A1B1B3EFD1F005A2A16 /* BlurMenu.m */; };
+		BCAF7A1F1B3EFD1F005A2A16 /* BlurMenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A1D1B3EFD1F005A2A16 /* BlurMenuItemCell.m */; };
+		BCAF7A221B3EFD3E005A2A16 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A211B3EFD3E005A2A16 /* UIImage+ImageEffects.m */; };
+		BCAF7A251B3F03CD005A2A16 /* JulyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A241B3F03CD005A2A16 /* JulyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +59,70 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16E03736C2E65696C6051BBC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4C603FD4603501C3729E01 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4AA556B8B009A731D9E563E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BC3CBB391B3E87020002818E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC4826AD1B2082AF001215CB /* Love U Ruchu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love U Ruchu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4826B11B2082AF001215CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC4826B21B2082AF001215CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC4826B41B2082AF001215CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC4826B51B2082AF001215CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC4826B71B2082AF001215CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC4826B81B2082AF001215CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BC4826BB1B2082AF001215CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC4826B71B2082AF001215CB /* JuneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuneViewController.h; path = ../JuneViewController.h; sourceTree = "<group>"; };
+		BC4826B81B2082AF001215CB /* JuneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JuneViewController.m; path = ../JuneViewController.m; sourceTree = "<group>"; };
 		BC4826BD1B2082AF001215CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC4826C01B2082AF001215CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BC4826C61B2082AF001215CB /* Love U RuchuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Love U RuchuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4826CB1B2082AF001215CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC4826CC1B2082AF001215CB /* Love_U_RuchuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Love_U_RuchuTests.m; sourceTree = "<group>"; };
+		BC4826D91B21DEC1001215CB /* FlipMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipMessageCell.h; sourceTree = "<group>"; };
+		BC4826DA1B21DEC1001215CB /* FlipMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipMessageCell.m; sourceTree = "<group>"; };
+		BC4826E91B233070001215CB /* CNPGridMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPGridMenu.h; sourceTree = "<group>"; };
+		BC4826EA1B233070001215CB /* CNPGridMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNPGridMenu.m; sourceTree = "<group>"; };
+		BC4826F01B259909001215CB /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		BC4826F11B259909001215CB /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		BC4826F51B25B2DD001215CB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		BC4826F61B25B2DD001215CB /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		BC4826F71B25B2DD001215CB /* background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@3x.png"; sourceTree = "<group>"; };
+		BC4826F81B25B2DD001215CB /* gears 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 1.png"; sourceTree = "<group>"; };
+		BC4826F91B25B2DD001215CB /* gears 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 1@2x.png"; sourceTree = "<group>"; };
+		BC4826FA1B25B2DD001215CB /* gears 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 1@3x.png"; sourceTree = "<group>"; };
+		BC4826FB1B25B2DD001215CB /* gears 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 2.png"; sourceTree = "<group>"; };
+		BC4826FC1B25B2DD001215CB /* gears 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 2@2x.png"; sourceTree = "<group>"; };
+		BC4826FD1B25B2DD001215CB /* gears 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 2@3x.png"; sourceTree = "<group>"; };
+		BC4826FE1B25B2DD001215CB /* gears 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 3.png"; sourceTree = "<group>"; };
+		BC4826FF1B25B2DD001215CB /* gears 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 3@2x.png"; sourceTree = "<group>"; };
+		BC4827001B25B2DD001215CB /* gears 3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 3@3x.png"; sourceTree = "<group>"; };
+		BC4827011B25B2DD001215CB /* imgDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgDemo.png; sourceTree = "<group>"; };
+		BC4827021B25B2DD001215CB /* Layer 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer 1.png"; sourceTree = "<group>"; };
+		BC4827031B25B2DD001215CB /* Layer 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer 1@2x.png"; sourceTree = "<group>"; };
+		BC4827041B25B2DD001215CB /* Layer 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer 1@3x.png"; sourceTree = "<group>"; };
+		BC4827051B25B2DD001215CB /* VMGearLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMGearLoadingView.h; sourceTree = "<group>"; };
+		BC4827061B25B2DD001215CB /* VMGearLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMGearLoadingView.m; sourceTree = "<group>"; };
+		BC48271C1B25C07F001215CB /* Messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Messages.plist; path = Resource/Messages.plist; sourceTree = "<group>"; };
+		BC4827221B25CB87001215CB /* VPRubberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPRubberCell.h; sourceTree = "<group>"; };
+		BC4827231B25CB87001215CB /* VPRubberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPRubberCell.m; sourceTree = "<group>"; };
+		BC4827241B25CB87001215CB /* VPRubberLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPRubberLayout.h; sourceTree = "<group>"; };
+		BC4827251B25CB87001215CB /* VPRubberLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPRubberLayout.m; sourceTree = "<group>"; };
+		BC4827261B25CB87001215CB /* VPRubberSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPRubberSettings.h; sourceTree = "<group>"; };
+		BC67E4251B3F16C400CC2DF7 /* VMButtonCircleFun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMButtonCircleFun.h; sourceTree = "<group>"; };
+		BC67E4261B3F16C400CC2DF7 /* VMButtonCircleFun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMButtonCircleFun.m; sourceTree = "<group>"; };
+		BC67E4281B3F192700CC2DF7 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		BC67E4291B3F192700CC2DF7 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		BC8C87501B3E6A8700DA4672 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		BC8C87511B3E6A8700DA4672 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		BCAF7A051B3EF87B005A2A16 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BCAF7A061B3EF87B005A2A16 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BCAF7A111B3EF94B005A2A16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BCAF7A131B3EF951005A2A16 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		BCAF7A1A1B3EFD1F005A2A16 /* BlurMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurMenu.h; sourceTree = "<group>"; };
+		BCAF7A1B1B3EFD1F005A2A16 /* BlurMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurMenu.m; sourceTree = "<group>"; };
+		BCAF7A1C1B3EFD1F005A2A16 /* BlurMenuItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurMenuItemCell.h; sourceTree = "<group>"; };
+		BCAF7A1D1B3EFD1F005A2A16 /* BlurMenuItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurMenuItemCell.m; sourceTree = "<group>"; };
+		BCAF7A201B3EFD3E005A2A16 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		BCAF7A211B3EFD3E005A2A16 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		BCAF7A231B3F03CD005A2A16 /* JulyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JulyViewController.h; sourceTree = "<group>"; };
+		BCAF7A241B3F03CD005A2A16 /* JulyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JulyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE1454F083B3155DAF64F22 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +144,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38F6A2EEFEE28BBD106EED0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AA556B8B009A731D9E563E7 /* Pods.debug.xcconfig */,
+				4A4C603FD4603501C3729E01 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C13E8D7343B72F960E0F741 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7A131B3EF951005A2A16 /* Accelerate.framework */,
+				BCAF7A111B3EF94B005A2A16 /* QuartzCore.framework */,
+				16E03736C2E65696C6051BBC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC4826A41B2082AF001215CB = {
 			isa = PBXGroup;
 			children = (
 				BC4826AF1B2082AF001215CB /* Love U Ruchu */,
 				BC4826C91B2082AF001215CB /* Love U RuchuTests */,
 				BC4826AE1B2082AF001215CB /* Products */,
+				38F6A2EEFEE28BBD106EED0D /* Pods */,
+				7C13E8D7343B72F960E0F741 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +186,15 @@
 		BC4826AF1B2082AF001215CB /* Love U Ruchu */ = {
 			isa = PBXGroup;
 			children = (
+				BC4826EC1B256FA3001215CB /* VCs */,
+				BC4826DC1B2326F1001215CB /* Libs */,
 				BC4826B41B2082AF001215CB /* AppDelegate.h */,
 				BC4826B51B2082AF001215CB /* AppDelegate.m */,
-				BC4826B71B2082AF001215CB /* ViewController.h */,
-				BC4826B81B2082AF001215CB /* ViewController.m */,
-				BC4826BA1B2082AF001215CB /* Main.storyboard */,
 				BC4826BD1B2082AF001215CB /* Images.xcassets */,
+				BC3CBB381B3E87020002818E /* Main.storyboard */,
 				BC4826BF1B2082AF001215CB /* LaunchScreen.xib */,
+				BC4826D91B21DEC1001215CB /* FlipMessageCell.h */,
+				BC4826DA1B21DEC1001215CB /* FlipMessageCell.m */,
 				BC4826B01B2082AF001215CB /* Supporting Files */,
 			);
 			path = "Love U Ruchu";
@@ -98,6 +205,7 @@
 			children = (
 				BC4826B11B2082AF001215CB /* Info.plist */,
 				BC4826B21B2082AF001215CB /* main.m */,
+				BC48271C1B25C07F001215CB /* Messages.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +227,113 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BC4826DC1B2326F1001215CB /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				BC67E4241B3F16C400CC2DF7 /* VMButtonCircleFun */,
+				BCAF7A191B3EFD1F005A2A16 /* BlurMenu */,
+				BC4827211B25CB87001215CB /* VPRubberClasses */,
+				BC4826F31B25B2DD001215CB /* VMGearLoadingView */,
+				BC4826E81B233070001215CB /* CNPGridMenu */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		BC4826E81B233070001215CB /* CNPGridMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BC4826E91B233070001215CB /* CNPGridMenu.h */,
+				BC4826EA1B233070001215CB /* CNPGridMenu.m */,
+			);
+			path = CNPGridMenu;
+			sourceTree = "<group>";
+		};
+		BC4826EC1B256FA3001215CB /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				BC67E4281B3F192700CC2DF7 /* SplashViewController.h */,
+				BC67E4291B3F192700CC2DF7 /* SplashViewController.m */,
+				BCAF7A231B3F03CD005A2A16 /* JulyViewController.h */,
+				BCAF7A241B3F03CD005A2A16 /* JulyViewController.m */,
+				BCAF7A051B3EF87B005A2A16 /* BaseViewController.h */,
+				BCAF7A061B3EF87B005A2A16 /* BaseViewController.m */,
+				BC8C87501B3E6A8700DA4672 /* MessagesViewController.h */,
+				BC8C87511B3E6A8700DA4672 /* MessagesViewController.m */,
+				BC4826F01B259909001215CB /* InitialViewController.h */,
+				BC4826F11B259909001215CB /* InitialViewController.m */,
+				BC4826B71B2082AF001215CB /* JuneViewController.h */,
+				BC4826B81B2082AF001215CB /* JuneViewController.m */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		BC4826F31B25B2DD001215CB /* VMGearLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				BC4826F41B25B2DD001215CB /* Images */,
+				BC4827051B25B2DD001215CB /* VMGearLoadingView.h */,
+				BC4827061B25B2DD001215CB /* VMGearLoadingView.m */,
+			);
+			path = VMGearLoadingView;
+			sourceTree = "<group>";
+		};
+		BC4826F41B25B2DD001215CB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BC4826F51B25B2DD001215CB /* background.png */,
+				BC4826F61B25B2DD001215CB /* background@2x.png */,
+				BC4826F71B25B2DD001215CB /* background@3x.png */,
+				BC4826F81B25B2DD001215CB /* gears 1.png */,
+				BC4826F91B25B2DD001215CB /* gears 1@2x.png */,
+				BC4826FA1B25B2DD001215CB /* gears 1@3x.png */,
+				BC4826FB1B25B2DD001215CB /* gears 2.png */,
+				BC4826FC1B25B2DD001215CB /* gears 2@2x.png */,
+				BC4826FD1B25B2DD001215CB /* gears 2@3x.png */,
+				BC4826FE1B25B2DD001215CB /* gears 3.png */,
+				BC4826FF1B25B2DD001215CB /* gears 3@2x.png */,
+				BC4827001B25B2DD001215CB /* gears 3@3x.png */,
+				BC4827011B25B2DD001215CB /* imgDemo.png */,
+				BC4827021B25B2DD001215CB /* Layer 1.png */,
+				BC4827031B25B2DD001215CB /* Layer 1@2x.png */,
+				BC4827041B25B2DD001215CB /* Layer 1@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BC4827211B25CB87001215CB /* VPRubberClasses */ = {
+			isa = PBXGroup;
+			children = (
+				BC4827221B25CB87001215CB /* VPRubberCell.h */,
+				BC4827231B25CB87001215CB /* VPRubberCell.m */,
+				BC4827241B25CB87001215CB /* VPRubberLayout.h */,
+				BC4827251B25CB87001215CB /* VPRubberLayout.m */,
+				BC4827261B25CB87001215CB /* VPRubberSettings.h */,
+			);
+			path = VPRubberClasses;
+			sourceTree = "<group>";
+		};
+		BC67E4241B3F16C400CC2DF7 /* VMButtonCircleFun */ = {
+			isa = PBXGroup;
+			children = (
+				BC67E4251B3F16C400CC2DF7 /* VMButtonCircleFun.h */,
+				BC67E4261B3F16C400CC2DF7 /* VMButtonCircleFun.m */,
+			);
+			path = VMButtonCircleFun;
+			sourceTree = "<group>";
+		};
+		BCAF7A191B3EFD1F005A2A16 /* BlurMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7A201B3EFD3E005A2A16 /* UIImage+ImageEffects.h */,
+				BCAF7A211B3EFD3E005A2A16 /* UIImage+ImageEffects.m */,
+				BCAF7A1A1B3EFD1F005A2A16 /* BlurMenu.h */,
+				BCAF7A1B1B3EFD1F005A2A16 /* BlurMenu.m */,
+				BCAF7A1C1B3EFD1F005A2A16 /* BlurMenuItemCell.h */,
+				BCAF7A1D1B3EFD1F005A2A16 /* BlurMenuItemCell.m */,
+			);
+			path = BlurMenu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +341,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC4826D01B2082AF001215CB /* Build configuration list for PBXNativeTarget "Love U Ruchu" */;
 			buildPhases = (
+				3D666E2F258ADEC9CB0B9308 /* Check Pods Manifest.lock */,
 				BC4826A91B2082AF001215CB /* Sources */,
 				BC4826AA1B2082AF001215CB /* Frameworks */,
 				BC4826AB1B2082AF001215CB /* Resources */,
+				B388003CBD0BBF451563AB43 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,9 +385,11 @@
 				TargetAttributes = {
 					BC4826AC1B2082AF001215CB = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 25F8NVY2WH;
 					};
 					BC4826C51B2082AF001215CB = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 25F8NVY2WH;
 						TestTargetID = BC4826AC1B2082AF001215CB;
 					};
 				};
@@ -199,8 +418,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4826BC1B2082AF001215CB /* Main.storyboard in Resources */,
-				BC4826C11B2082AF001215CB /* LaunchScreen.xib in Resources */,
+				BCAF7A101B3EF91E005A2A16 /* Main.storyboard in Resources */,
+				BCAF7A0F1B3EF915005A2A16 /* LaunchScreen.xib in Resources */,
+				BC4827131B25B2DD001215CB /* imgDemo.png in Resources */,
+				BC4827151B25B2DD001215CB /* Layer 1@2x.png in Resources */,
+				BC48270A1B25B2DD001215CB /* gears 1.png in Resources */,
+				BC4827091B25B2DD001215CB /* background@3x.png in Resources */,
+				BC4827141B25B2DD001215CB /* Layer 1.png in Resources */,
+				BC4827071B25B2DD001215CB /* background.png in Resources */,
+				BC4827121B25B2DD001215CB /* gears 3@3x.png in Resources */,
+				BC48270E1B25B2DD001215CB /* gears 2@2x.png in Resources */,
+				BC4827081B25B2DD001215CB /* background@2x.png in Resources */,
+				BC4827101B25B2DD001215CB /* gears 3.png in Resources */,
+				BC48271D1B25C07F001215CB /* Messages.plist in Resources */,
+				BC48270C1B25B2DD001215CB /* gears 1@3x.png in Resources */,
+				BC48270F1B25B2DD001215CB /* gears 2@3x.png in Resources */,
+				BC4827111B25B2DD001215CB /* gears 3@2x.png in Resources */,
+				BC48270B1B25B2DD001215CB /* gears 1@2x.png in Resources */,
+				BC4827161B25B2DD001215CB /* Layer 1@3x.png in Resources */,
+				BC48270D1B25B2DD001215CB /* gears 2.png in Resources */,
 				BC4826BE1B2082AF001215CB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +450,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D666E2F258ADEC9CB0B9308 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B388003CBD0BBF451563AB43 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC4826A91B2082AF001215CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4826B91B2082AF001215CB /* ViewController.m in Sources */,
+				BC4826DB1B21DEC1001215CB /* FlipMessageCell.m in Sources */,
+				BC67E42A1B3F192700CC2DF7 /* SplashViewController.m in Sources */,
+				BC4827281B25CB87001215CB /* VPRubberLayout.m in Sources */,
+				BCAF7A221B3EFD3E005A2A16 /* UIImage+ImageEffects.m in Sources */,
+				BC8C87521B3E6A8700DA4672 /* MessagesViewController.m in Sources */,
+				BC4827271B25CB87001215CB /* VPRubberCell.m in Sources */,
+				BC4826B91B2082AF001215CB /* JuneViewController.m in Sources */,
 				BC4826B61B2082AF001215CB /* AppDelegate.m in Sources */,
+				BC4826F21B259909001215CB /* InitialViewController.m in Sources */,
+				BC67E4271B3F16C400CC2DF7 /* VMButtonCircleFun.m in Sources */,
+				BCAF7A071B3EF87B005A2A16 /* BaseViewController.m in Sources */,
+				BC4827171B25B2DD001215CB /* VMGearLoadingView.m in Sources */,
+				BCAF7A251B3F03CD005A2A16 /* JulyViewController.m in Sources */,
 				BC4826B31B2082AF001215CB /* main.m in Sources */,
+				BC4826EB1B233070001215CB /* CNPGridMenu.m in Sources */,
+				BCAF7A1F1B3EFD1F005A2A16 /* BlurMenuItemCell.m in Sources */,
+				BCAF7A1E1B3EFD1F005A2A16 /* BlurMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +527,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BC4826BA1B2082AF001215CB /* Main.storyboard */ = {
+		BC3CBB381B3E87020002818E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BC4826BB1B2082AF001215CB /* Base */,
+				BC3CBB391B3E87020002818E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -280,7 +563,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CLP Power Hong Kong Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CLP Power Hong Kong Limited";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -302,6 +586,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "db99c3d7-ff41-400a-b95a-d616cb5149ff";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -323,7 +608,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CLP Power Hong Kong Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CLP Power Hong Kong Limited";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -338,6 +624,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "db99c3d7-ff41-400a-b95a-d616cb5149ff";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -345,21 +632,31 @@
 		};
 		BC4826D11B2082AF001215CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA556B8B009A731D9E563E7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Love U Ruchu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		BC4826D21B2082AF001215CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4C603FD4603501C3729E01 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Love U Ruchu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -367,6 +664,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -378,6 +677,7 @@
 				INFOPLIST_FILE = "Love U RuchuTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love U Ruchu.app/Love U Ruchu";
 			};
 			name = Debug;
@@ -386,6 +686,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -393,6 +695,7 @@
 				INFOPLIST_FILE = "Love U RuchuTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love U Ruchu.app/Love U Ruchu";
 			};
 			name = Release;
@@ -416,6 +719,7 @@
 				BC4826D21B2082AF001215CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC4826D31B2082AF001215CB /* Build configuration list for PBXNativeTarget "Love U RuchuTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +728,7 @@
 				BC4826D51B2082AF001215CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

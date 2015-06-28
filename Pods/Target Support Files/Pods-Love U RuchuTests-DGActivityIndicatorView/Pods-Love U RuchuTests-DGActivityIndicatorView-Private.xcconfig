@@ -1,0 +1,6 @@
+#include "Pods-Love U RuchuTests-DGActivityIndicatorView.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/DGActivityIndicatorView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DGActivityIndicatorView" "${PODS_ROOT}/Headers/Public/FSDAirportFlipLabel" "${PODS_ROOT}/Headers/Public/MZTimerLabel" "${PODS_ROOT}/Headers/Public/RNBlurredSideViewController" "${PODS_ROOT}/Headers/Public/SWBufferedToast"
+OTHER_LDFLAGS = ${PODS_LOVE_U_RUCHUTESTS_DGACTIVITYINDICATORVIEW_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
