@@ -26,7 +26,8 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self authenticatePopUp];
+    [self performSelectorOnMainThread:@selector(showInitialView) withObject:nil waitUntilDone:NO];
+    //[self authenticatePopUp];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -119,7 +120,7 @@
     [circleView3 buildButton];
     
     VMButtonCircleFun *circleView5 = [[VMButtonCircleFun alloc] initWithFrame:CGRectMake(0, 0, 60, 60)];
-    [circleView5 addCircleLayerWithType:VMMakeLocationTop];
+    [circleView5 addCircleLayerWithType:VMMakeLocationBottom];
     circleView5.strokeColor = rgb(190, 50, 106);
     circleView5.center = CGPointMake(CGRectGetWidth(self.view.bounds)/2 + 60, CGRectGetHeight(self.view.bounds)/2 - offset);
     [circleView5 setIconButton:@"I" withType:VMMakeLocationTop withColor:rgb(127, 140, 141)];
@@ -167,7 +168,7 @@
     [circleView3 buildButton];
     
     VMButtonCircleFun *circleView5 = [[VMButtonCircleFun alloc] initWithFrame:CGRectMake(0, 0, 60, 60)];
-    [circleView5 addCircleLayerWithType:VMMakeLocationTop];
+    [circleView5 addCircleLayerWithType:VMMakeLocationBottom];
     circleView5.strokeColor = rgb(0, 170, 172);
     circleView5.center = CGPointMake(CGRectGetWidth(self.view.bounds)/2 + 90, CGRectGetHeight(self.view.bounds)/2);
     [circleView5 setIconButton:@"E" withType:VMMakeLocationTop withColor:rgb(127, 140, 141)];
@@ -180,7 +181,7 @@
 {
     CGFloat offset = 100;
     VMButtonCircleFun *circleView1 = [[VMButtonCircleFun alloc] initWithFrame:CGRectMake(0, 0, 60, 60)];
-    [circleView1 addCircleLayerWithType:VMMakeLocationTop];
+    [circleView1 addCircleLayerWithType:VMMakeLocationBottom];
     circleView1.strokeColor = rgb(243, 106, 106);
     circleView1.center = CGPointMake(CGRectGetWidth(self.view.bounds)/2 - 120, CGRectGetHeight(self.view.bounds)/2 + offset);
     [circleView1 setIconButton:@"R" withType:VMMakeLocationTop withColor:rgb(127, 140, 141)];
@@ -189,7 +190,7 @@
     [circleView1 buildButton];
     
     VMButtonCircleFun *circleView2 = [[VMButtonCircleFun alloc] initWithFrame:CGRectMake(0, 0, 60, 60)];
-    [circleView2 addCircleLayerWithType:VMMakeLocationBottom];
+    [circleView2 addCircleLayerWithType:VMMakeLocationTop];
     circleView2.strokeColor = rgb(255, 195, 45);
     circleView2.center = CGPointMake(CGRectGetWidth(self.view.bounds)/2 - 60, CGRectGetHeight(self.view.bounds)/2 + offset);
     [circleView2 setIconButton:@"U" withType:VMMakeLocationBottom withColor:rgb(127, 140, 141)];
@@ -198,7 +199,7 @@
     [circleView2 buildButton];
     
     VMButtonCircleFun *circleView3 = [[VMButtonCircleFun alloc] initWithFrame:CGRectMake(0, 0, 60, 60)];
-    [circleView3 addCircleLayerWithType:VMMakeLocationTop];
+    [circleView3 addCircleLayerWithType:VMMakeLocationBottom];
     circleView3.strokeColor = rgb(74, 220, 239);
     circleView3.center = CGPointMake(CGRectGetWidth(self.view.bounds)/2, CGRectGetHeight(self.view.bounds)/2 + offset);
     [circleView3 setIconButton:@"C" withType:VMMakeLocationTop withColor:rgb(127, 140, 141)];
@@ -216,7 +217,7 @@
     [circleView5 buildButton];
     
     VMButtonCircleFun *circleView4 = [[VMButtonCircleFun alloc] initWithFrame:CGRectMake(0, 0, 60, 60)];
-    [circleView4 addCircleLayerWithType:VMMakeLocationTop];
+    [circleView4 addCircleLayerWithType:VMMakeLocationBottom];
     circleView4.strokeColor = rgb(74, 220, 139);
     circleView4.center = CGPointMake(CGRectGetWidth(self.view.bounds)/2 + 120, CGRectGetHeight(self.view.bounds)/2 + offset);
     [circleView4 setIconButton:@"U" withType:VMMakeLocationTop withColor:rgb(127, 140, 141)];

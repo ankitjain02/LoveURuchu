@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2CE1454F083B3155DAF64F22 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E03736C2E65696C6051BBC /* libPods.a */; };
+		BC0A414A1B42D9590033F09C /* ImpDatesToRemember.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC0A41491B42D9590033F09C /* ImpDatesToRemember.plist */; };
 		BC4826B31B2082AF001215CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B21B2082AF001215CB /* main.m */; };
 		BC4826B61B2082AF001215CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B51B2082AF001215CB /* AppDelegate.m */; };
 		BC4826B91B2082AF001215CB /* JuneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B81B2082AF001215CB /* JuneViewController.m */; };
@@ -38,6 +39,12 @@
 		BC4827281B25CB87001215CB /* VPRubberLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4827251B25CB87001215CB /* VPRubberLayout.m */; };
 		BC67E4271B3F16C400CC2DF7 /* VMButtonCircleFun.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67E4261B3F16C400CC2DF7 /* VMButtonCircleFun.m */; };
 		BC67E42A1B3F192700CC2DF7 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67E4291B3F192700CC2DF7 /* SplashViewController.m */; };
+		BC749DBF1B638F0900CE03B7 /* AugustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC749DBE1B638F0900CE03B7 /* AugustViewController.m */; };
+		BC749DC31B638F4600CE03B7 /* HYBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC749DC21B638F4600CE03B7 /* HYBubbleButton.m */; };
+		BC749DC61B639B2A00CE03B7 /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC749DC51B639B2A00CE03B7 /* ImagesTableViewController.m */; };
+		BC749DC91B639F2400CE03B7 /* ImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC749DC81B639F2400CE03B7 /* ImagesTableViewCell.m */; };
+		BC89AE221B405A62005C1828 /* Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89AE211B405A62005C1828 /* Popup.m */; };
+		BC89AE251B405AB5005C1828 /* ImpDatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89AE241B405AB5005C1828 /* ImpDatesViewController.m */; };
 		BC8C87521B3E6A8700DA4672 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8C87511B3E6A8700DA4672 /* MessagesViewController.m */; };
 		BCAF7A071B3EF87B005A2A16 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A061B3EF87B005A2A16 /* BaseViewController.m */; };
 		BCAF7A0F1B3EF915005A2A16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4826BF1B2082AF001215CB /* LaunchScreen.xib */; };
@@ -62,6 +69,7 @@
 		16E03736C2E65696C6051BBC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4C603FD4603501C3729E01 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4AA556B8B009A731D9E563E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0A41491B42D9590033F09C /* ImpDatesToRemember.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ImpDatesToRemember.plist; path = Resource/ImpDatesToRemember.plist; sourceTree = "<group>"; };
 		BC3CBB391B3E87020002818E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC4826AD1B2082AF001215CB /* Love U Ruchu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love U Ruchu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4826B11B2082AF001215CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +117,18 @@
 		BC67E4261B3F16C400CC2DF7 /* VMButtonCircleFun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMButtonCircleFun.m; sourceTree = "<group>"; };
 		BC67E4281B3F192700CC2DF7 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		BC67E4291B3F192700CC2DF7 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		BC749DBD1B638F0900CE03B7 /* AugustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AugustViewController.h; sourceTree = "<group>"; };
+		BC749DBE1B638F0900CE03B7 /* AugustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AugustViewController.m; sourceTree = "<group>"; };
+		BC749DC11B638F4600CE03B7 /* HYBubbleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBubbleButton.h; sourceTree = "<group>"; };
+		BC749DC21B638F4600CE03B7 /* HYBubbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBubbleButton.m; sourceTree = "<group>"; };
+		BC749DC41B639B2A00CE03B7 /* ImagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
+		BC749DC51B639B2A00CE03B7 /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
+		BC749DC71B639F2400CE03B7 /* ImagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewCell.h; sourceTree = "<group>"; };
+		BC749DC81B639F2400CE03B7 /* ImagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewCell.m; sourceTree = "<group>"; };
+		BC89AE201B405A62005C1828 /* Popup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Popup.h; sourceTree = "<group>"; };
+		BC89AE211B405A62005C1828 /* Popup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Popup.m; sourceTree = "<group>"; };
+		BC89AE231B405AB5005C1828 /* ImpDatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpDatesViewController.h; sourceTree = "<group>"; };
+		BC89AE241B405AB5005C1828 /* ImpDatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpDatesViewController.m; sourceTree = "<group>"; };
 		BC8C87501B3E6A8700DA4672 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
 		BC8C87511B3E6A8700DA4672 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
 		BCAF7A051B3EF87B005A2A16 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -206,6 +226,7 @@
 				BC4826B11B2082AF001215CB /* Info.plist */,
 				BC4826B21B2082AF001215CB /* main.m */,
 				BC48271C1B25C07F001215CB /* Messages.plist */,
+				BC0A41491B42D9590033F09C /* ImpDatesToRemember.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,6 +251,8 @@
 		BC4826DC1B2326F1001215CB /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BC749DC01B638F4600CE03B7 /* HYBubbleButton */,
+				BC89AE1F1B405A62005C1828 /* Popup */,
 				BC67E4241B3F16C400CC2DF7 /* VMButtonCircleFun */,
 				BCAF7A191B3EFD1F005A2A16 /* BlurMenu */,
 				BC4827211B25CB87001215CB /* VPRubberClasses */,
@@ -251,6 +274,14 @@
 		BC4826EC1B256FA3001215CB /* VCs */ = {
 			isa = PBXGroup;
 			children = (
+				BC749DC71B639F2400CE03B7 /* ImagesTableViewCell.h */,
+				BC749DC81B639F2400CE03B7 /* ImagesTableViewCell.m */,
+				BC749DC41B639B2A00CE03B7 /* ImagesTableViewController.h */,
+				BC749DC51B639B2A00CE03B7 /* ImagesTableViewController.m */,
+				BC749DBD1B638F0900CE03B7 /* AugustViewController.h */,
+				BC749DBE1B638F0900CE03B7 /* AugustViewController.m */,
+				BC89AE231B405AB5005C1828 /* ImpDatesViewController.h */,
+				BC89AE241B405AB5005C1828 /* ImpDatesViewController.m */,
 				BC67E4281B3F192700CC2DF7 /* SplashViewController.h */,
 				BC67E4291B3F192700CC2DF7 /* SplashViewController.m */,
 				BCAF7A231B3F03CD005A2A16 /* JulyViewController.h */,
@@ -319,6 +350,24 @@
 				BC67E4261B3F16C400CC2DF7 /* VMButtonCircleFun.m */,
 			);
 			path = VMButtonCircleFun;
+			sourceTree = "<group>";
+		};
+		BC749DC01B638F4600CE03B7 /* HYBubbleButton */ = {
+			isa = PBXGroup;
+			children = (
+				BC749DC11B638F4600CE03B7 /* HYBubbleButton.h */,
+				BC749DC21B638F4600CE03B7 /* HYBubbleButton.m */,
+			);
+			path = HYBubbleButton;
+			sourceTree = "<group>";
+		};
+		BC89AE1F1B405A62005C1828 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				BC89AE201B405A62005C1828 /* Popup.h */,
+				BC89AE211B405A62005C1828 /* Popup.m */,
+			);
+			path = Popup;
 			sourceTree = "<group>";
 		};
 		BCAF7A191B3EFD1F005A2A16 /* BlurMenu */ = {
@@ -422,6 +471,7 @@
 				BCAF7A0F1B3EF915005A2A16 /* LaunchScreen.xib in Resources */,
 				BC4827131B25B2DD001215CB /* imgDemo.png in Resources */,
 				BC4827151B25B2DD001215CB /* Layer 1@2x.png in Resources */,
+				BC0A414A1B42D9590033F09C /* ImpDatesToRemember.plist in Resources */,
 				BC48270A1B25B2DD001215CB /* gears 1.png in Resources */,
 				BC4827091B25B2DD001215CB /* background@3x.png in Resources */,
 				BC4827141B25B2DD001215CB /* Layer 1.png in Resources */,
@@ -490,18 +540,24 @@
 			files = (
 				BC4826DB1B21DEC1001215CB /* FlipMessageCell.m in Sources */,
 				BC67E42A1B3F192700CC2DF7 /* SplashViewController.m in Sources */,
+				BC749DC31B638F4600CE03B7 /* HYBubbleButton.m in Sources */,
 				BC4827281B25CB87001215CB /* VPRubberLayout.m in Sources */,
 				BCAF7A221B3EFD3E005A2A16 /* UIImage+ImageEffects.m in Sources */,
 				BC8C87521B3E6A8700DA4672 /* MessagesViewController.m in Sources */,
+				BC749DBF1B638F0900CE03B7 /* AugustViewController.m in Sources */,
 				BC4827271B25CB87001215CB /* VPRubberCell.m in Sources */,
 				BC4826B91B2082AF001215CB /* JuneViewController.m in Sources */,
 				BC4826B61B2082AF001215CB /* AppDelegate.m in Sources */,
 				BC4826F21B259909001215CB /* InitialViewController.m in Sources */,
+				BC749DC61B639B2A00CE03B7 /* ImagesTableViewController.m in Sources */,
 				BC67E4271B3F16C400CC2DF7 /* VMButtonCircleFun.m in Sources */,
 				BCAF7A071B3EF87B005A2A16 /* BaseViewController.m in Sources */,
+				BC749DC91B639F2400CE03B7 /* ImagesTableViewCell.m in Sources */,
 				BC4827171B25B2DD001215CB /* VMGearLoadingView.m in Sources */,
+				BC89AE221B405A62005C1828 /* Popup.m in Sources */,
 				BCAF7A251B3F03CD005A2A16 /* JulyViewController.m in Sources */,
 				BC4826B31B2082AF001215CB /* main.m in Sources */,
+				BC89AE251B405AB5005C1828 /* ImpDatesViewController.m in Sources */,
 				BC4826EB1B233070001215CB /* CNPGridMenu.m in Sources */,
 				BCAF7A1F1B3EFD1F005A2A16 /* BlurMenuItemCell.m in Sources */,
 				BCAF7A1E1B3EFD1F005A2A16 /* BlurMenu.m in Sources */,
@@ -638,6 +694,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Love U Ruchu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -653,8 +710,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Love U Ruchu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

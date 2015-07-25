@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HYBubbleButton.h"
+#import "BaseViewController.h"
 
-@interface AugustViewController : UIViewController
+@interface AugustViewController : BaseViewController
+
+@property (weak, nonatomic) IBOutlet HYBubbleButton *bubbleButton;
 
 @end

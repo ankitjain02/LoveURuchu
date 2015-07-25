@@ -17,7 +17,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self getNextMonthDate];
     return YES;
+}
+
+-(void)getNextMonthDate {
+    NSString *month = [[NSUserDefaults standardUserDefaults] valueForKey:@"GET_DATE"];
+    
+    NSDateComponents *comps = [[NSDateComponents alloc] init];
+    [comps setDay:10];
+    
+    if (!month) {
+        [[NSUserDefaults standardUserDefaults] setValue:@"8" forKey:@"GET_DATE"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        [comps setMonth:8];
+        [comps setYear:2015];
+    } else {
+        [comps setMonth:[month integerValue]];
+        [comps setYear:2015];
+    }
+
+    NSCalendar *gregorian = [[NSCalendar alloc]
+                             initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    self.date = [gregorian dateFromComponents:comps];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -31,6 +54,7 @@
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
+    [self getNextMonthDate];
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 

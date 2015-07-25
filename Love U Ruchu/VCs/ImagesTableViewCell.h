@@ -10,4 +10,7 @@
 
 @interface ImagesTableViewCell : UITableViewCell
 
+@property (nonatomic, strong) IBOutlet UIImageView *iconImage;
+@property (nonatomic, strong) IBOutlet UILabel *label;
+
 @end

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A5F7F0B-4AB8-4BE4-9713-EF849BDA802D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Love U Ruchu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CFAD8E56C5880270272D7C8ECA4059C8F5BC95FB</key>
+		<string>https://github.com/ankitjain02/LoveURuchu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Love U Ruchu.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CFAD8E56C5880270272D7C8ECA4059C8F5BC95FB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ankitjain02/LoveURuchu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CFAD8E56C5880270272D7C8ECA4059C8F5BC95FB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CFAD8E56C5880270272D7C8ECA4059C8F5BC95FB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Love%20U%20Ruchu</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,8 +7,12 @@
 //
 
 #import "ImagesTableViewController.h"
+#import "ImagesTableViewCell.h"
 
 @interface ImagesTableViewController ()
+
+@property (nonatomic, strong) NSMutableArray *selectedImages;
+@property (nonatomic, strong) NSArray *imagesArray;
 
 @end
 
@@ -17,11 +21,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    self.selectedImages = [[[NSUserDefaults standardUserDefaults] valueForKey:@"IMAGES_SELECTED"] mutableCopy];
+    self.imagesArray = @[@"heart1", @"heart2", @"heart3", @"heart4", @"heart5", @"heart6", @"heart7", @"heart8", @"heart9", @"heart10", @"heart11", @"heart12", @"heart13", @"heart14", @"heart15", @"star", @"heartRing", @"ballon1", @"kiss1", @"choco1", @"choco2"];
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    // Show navigation bar
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+    [self.navigationController.navigationBar setBackgroundColor:self.view.backgroundColor];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    // Hide back button
+    self.navigationItem.hidesBackButton = YES;
+    
+    UIBarButtonItem *settingsButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(doneAction)];
+    self.navigationItem.leftBarButtonItem = settingsButton;
+}
+
+-(void)doneAction {
+    [[NSUserDefaults standardUserDefaults] setValue:self.selectedImages forKey:@"IMAGES_SELECTED"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,26 +52,61 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return self.imagesArray.count;
 }
 
-/*
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 60.0f;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    ImagesTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ImagesCell" forIndexPath:indexPath];
     
-    // Configure the cell...
+    UIImage *image = [UIImage imageNamed:[self.imagesArray objectAtIndex:indexPath.row]];
+    [cell.iconImage setImage:image];
+    cell.label.text = [self.imagesArray objectAtIndex:indexPath.row];
+    
+    cell.accessoryType = UITableViewCellAccessoryNone;
+    
+    if ([self.selectedImages containsObject:[self.imagesArray objectAtIndex:indexPath.row]]) {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    }
     
     return cell;
 }
-*/
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//    ImagesTableViewCell *cell = (ImagesTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
+//    
+    if (![self.selectedImages containsObject:[self.imagesArray objectAtIndex:indexPath.row]]) {
+        [self.selectedImages addObject:[self.imagesArray objectAtIndex:indexPath.row]];
+    } else {
+        [self.selectedImages removeObject:[self.imagesArray objectAtIndex:indexPath.row]];
+    }
+//
+//    if ([self.selectedRows containsObject:[self.imagesArray objectAtIndex:indexPath.row]]) {
+//        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+//    } else {
+//        
+//    }
+    
+    ImagesTableViewCell *cell = (ImagesTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
+    if (cell.accessoryType != UITableViewCellAccessoryCheckmark) {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    } else {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    }
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    //[self.tagDelegate fillTagField:cell.textLabel.text];
+}
+
 
 /*
 // Override to support conditional editing of the table view.

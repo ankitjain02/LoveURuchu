@@ -11,6 +11,9 @@
 #import "MessagesViewController.h"
 #import "JuneViewController.h"
 #import "JulyViewController.h"
+#import "ImpDatesViewController.h"
+#import "AppDelegate.h"
+#import "AugustViewController.h"
 
 @interface BaseViewController () <BlurMenuDelegate>
 
@@ -28,10 +31,27 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(NSDate *)getDate {
+    AppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+    return delegate.date;
+}
+
+-(void)updateDate{
+//    NSString *month = [[NSUserDefaults standardUserDefaults] valueForKey:@"GET_DATE"];
+//    NSInteger monthInt = [month integerValue] + 1;
+//    
+//    [[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%ld", (long)monthInt] forKey:@"GET_DATE"];
+//    [[NSUserDefaults standardUserDefaults] synchronize];
+//    
+//    AppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+//    [delegate getNextMonthDate];
+
+}
+
 #pragma - Menu
 
 - (IBAction)showMenu:(id)sender {
-    NSArray *items = [[NSArray alloc] initWithObjects:@"Anniversary Countdown", @"Love Quotes", @"June", @"July", nil];
+    NSArray *items = [[NSArray alloc] initWithObjects:@"Anniversary Countdown", @"Imp Dates", @"Love Quotes", @"June", @"July", @"August", nil];
     BlurMenu *menu = [[BlurMenu alloc] initWithItems:items parentView:self.view delegate:self];
     [menu show];
 }
@@ -50,14 +70,20 @@
         InitialViewController *initialVC = [self.storyboard instantiateViewControllerWithIdentifier:@"InitialViewController"];
         [self.navigationController pushViewController:initialVC animated:animated];
     } else if (index == 1) {
+        ImpDatesViewController *impVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ImpDatesViewController"];
+        [self.navigationController pushViewController:impVC animated:animated];
+    } else if (index == 2) {
         MessagesViewController *messageVC = [self.storyboard instantiateViewControllerWithIdentifier:@"MessagesViewController"];
         [self.navigationController pushViewController:messageVC animated:animated];
-    } else if (index == 2) {
+    } else if (index == 3) {
         JuneViewController *juneVC = [self.storyboard instantiateViewControllerWithIdentifier:@"JuneViewController"];
         [self.navigationController pushViewController:juneVC animated:animated];
-    } else if (index == 3) {
+    } else if (index == 4) {
         JulyViewController *julyVC = [self.storyboard instantiateViewControllerWithIdentifier:@"JulyViewController"];
         [self.navigationController pushViewController:julyVC animated:animated];
+    } else if (index == 5) {
+        AugustViewController *augustVC = [self.storyboard instantiateViewControllerWithIdentifier:@"AugustViewController"];
+        [self.navigationController pushViewController:augustVC animated:animated];
     }
 }
 

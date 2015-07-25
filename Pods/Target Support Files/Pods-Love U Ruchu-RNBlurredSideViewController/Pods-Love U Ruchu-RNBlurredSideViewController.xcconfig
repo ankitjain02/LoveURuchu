@@ -1,1 +1,0 @@
-PODS_LOVE_U_RUCHU_RNBLURREDSIDEVIEWCONTROLLER_OTHER_LDFLAGS = -framework "Accelerate" -framework "QuartzCore"

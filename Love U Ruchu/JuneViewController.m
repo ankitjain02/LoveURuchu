@@ -107,22 +107,17 @@
     if (toast) {
         [toast dismiss];
 
-        if (toast == popUpToast) {
-            timer = [NSTimer scheduledTimerWithTimeInterval:timeInterval
-                                                     target:self
-                                                   selector:@selector(showNotification)
-                                                   userInfo:nil
-                                                    repeats:YES];
-            
-            tableData = [NSArray arrayWithObjects:@"This day is", @"a reminder", @"of the best", @"decision of", @"my life to", @"propose to,", @"and", @"get married", @"to the", @"worlds most", @"beautiful", @"woman.", @"Happy", @"anniversary", @"Ruchu",  nil];
-            [self.tableView reloadData];
-        } else {
-            NSLog(@"Nothing");
-            MessagesViewController *messageVc =
-            [[UIStoryboard storyboardWithName:@"Main" bundle:NULL]
-             instantiateViewControllerWithIdentifier:@"MessagesViewController"];
-            [self.navigationController pushViewController:messageVc animated:YES];
-        }
+        tableData = [NSArray arrayWithObjects:@"This day is", @"a reminder", @"of the best", @"decision of", @"my life to", @"propose to,", @"and", @"get married", @"to the", @"worlds most", @"beautiful", @"woman.", @"Happy", @"anniversary", @"Ruchu",  nil];
+        [self.tableView reloadData];
+    }
+}
+
+- (void)didDismissToastView:(SWBufferedToast*)toast {
+    if (toast) {
+        [toast dismiss];
+        
+        tableData = [NSArray arrayWithObjects:@"This day is", @"a reminder", @"of the best", @"decision of", @"my life to", @"propose to,", @"and", @"get married", @"to the", @"worlds most", @"beautiful", @"woman.", @"Happy", @"anniversary", @"Ruchu",  nil];
+        [self.tableView reloadData];
     }
 }
 
