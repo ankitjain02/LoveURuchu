@@ -13,5 +13,6 @@
 @interface AugustViewController : BaseViewController
 
 @property (weak, nonatomic) IBOutlet HYBubbleButton *bubbleButton;
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
 
 @end

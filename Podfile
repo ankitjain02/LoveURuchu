@@ -8,7 +8,7 @@ pod 'DGActivityIndicatorView'
 pod "FSDAirportFlipLabel"
 pod 'JTSlideShadowAnimation', '~> 1.0'
 pod 'BRFlabbyTable', '~> 1.0'
-pod "BKAsciiImage"
+pod 'Ophiuchus', '~> 1.0.3'
 
 target 'Love U Ruchu' do
 

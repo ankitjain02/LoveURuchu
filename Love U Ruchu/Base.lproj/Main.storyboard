@@ -5,6 +5,15 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Code Pro LC.otf">
+            <string>Code-Pro-LC</string>
+        </mutableArray>
+        <mutableArray key="Proxima Nova Regular.otf">
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Anniversary Countdown-->
         <scene sceneID="KRo-uP-zHd">
@@ -442,6 +451,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LKL-Ij-5dI">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ER-De-U8W" customClass="HYBubbleButton">
                                 <rect key="frame" x="415" y="562" width="139" height="30"/>
                                 <animations/>
@@ -460,9 +473,13 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="LKL-Ij-5dI" secondAttribute="centerX" id="6TS-9h-YaU"/>
                             <constraint firstAttribute="width" secondItem="9ER-De-U8W" secondAttribute="width" id="Bxe-Id-3Gr"/>
                             <constraint firstItem="hyU-KQ-PIK" firstAttribute="top" secondItem="9ER-De-U8W" secondAttribute="bottom" constant="8" symbolic="YES" id="GXo-ZB-93I"/>
                             <constraint firstItem="hyU-KQ-PIK" firstAttribute="top" secondItem="9ER-De-U8W" secondAttribute="bottom" constant="8" id="Ilk-xR-GWE"/>
+                            <constraint firstAttribute="height" secondItem="LKL-Ij-5dI" secondAttribute="height" id="TCc-t9-8UB"/>
+                            <constraint firstAttribute="centerY" secondItem="LKL-Ij-5dI" secondAttribute="centerY" id="b5G-wF-Io2"/>
+                            <constraint firstAttribute="width" secondItem="LKL-Ij-5dI" secondAttribute="width" id="l29-Vk-5Px"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9ER-De-U8W" secondAttribute="trailing" constant="30" id="sbf-Ft-1m5"/>
                             <constraint firstItem="hyU-KQ-PIK" firstAttribute="top" secondItem="9ER-De-U8W" secondAttribute="bottom" constant="8" id="tpu-br-htu"/>
                             <constraint firstAttribute="centerX" secondItem="9ER-De-U8W" secondAttribute="centerX" id="vYf-k3-oe1"/>
@@ -477,6 +494,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="backgroundImage" destination="LKL-Ij-5dI" id="E8P-8m-jCV"/>
                         <outlet property="bubbleButton" destination="9ER-De-U8W" id="YIb-78-LK0"/>
                     </connections>
                 </viewController>
@@ -590,6 +608,136 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1k1-LL-S0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2649" y="874"/>
+        </scene>
+        <!--IconImagesViewController-->
+        <scene sceneID="WDI-x2-Bt1">
+            <objects>
+                <viewController storyboardIdentifier="IconImagesViewController" id="Bhj-YN-Y4y" userLabel="IconImagesViewController" customClass="IconImagesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="efs-vu-WL7"/>
+                        <viewControllerLayoutGuide type="bottom" id="fg2-AB-KHH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oxI-OU-dZg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nlo-uG-rOI">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="1" id="VBu-uj-RnT">
+                                    <size key="itemSize" width="598.5" height="85"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" reuseIdentifier="YALChatDemoCollectionViewCell" id="9QG-fZ-Wxn" customClass="YALChatDemoCollectionViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="598.5" height="85"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ysE-se-Ded" userLabel="photoImageView">
+                                                    <rect key="frame" x="10" y="15" width="55" height="55"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="55" id="SZy-VK-vtL"/>
+                                                        <constraint firstAttribute="width" constant="55" id="w7h-Fj-USP"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ann Drewer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-dP-g48" userLabel="nameLabel">
+                                                    <rect key="frame" x="80" y="23" width="105" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Code-Pro-LC" family="Code Pro LC" pointSize="18"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.81176470590000005" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="✓" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2K-Pj-29I" userLabel="dateLabel">
+                                                    <rect key="frame" x="563.5" y="10" width="25" height="21"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="vg4-tK-5gb"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="25"/>
+                                                    <color key="textColor" red="0.6705882353" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b7x-fc-Ymk">
+                                                    <rect key="frame" x="580" y="34" width="18" height="18"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="U9a-Vf-BCZ"/>
+                                                        <constraint firstAttribute="width" constant="18" id="cjt-LN-0f8"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" fixedFrame="YES" text="Great news! And when will you..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8R-FY-APr" userLabel="messageLabel">
+                                                    <rect key="frame" x="80" y="46" width="202" height="16"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="13"/>
+                                                    <color key="textColor" red="0.85882352939999995" green="0.86274509799999999" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.40000000000000002" green="0.38823529410000002" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="ysE-se-Ded" secondAttribute="bottom" constant="15" id="90H-yx-bxx"/>
+                                            <constraint firstAttribute="trailing" secondItem="x2K-Pj-29I" secondAttribute="trailing" constant="10" id="AT5-jx-p5j"/>
+                                            <constraint firstItem="ysE-se-Ded" firstAttribute="leading" secondItem="9QG-fZ-Wxn" secondAttribute="leading" constant="10" id="CA2-QD-y5P"/>
+                                            <constraint firstAttribute="centerY" secondItem="b7x-fc-Ymk" secondAttribute="centerY" id="c6S-NE-A7x"/>
+                                            <constraint firstItem="x2K-Pj-29I" firstAttribute="top" secondItem="9QG-fZ-Wxn" secondAttribute="top" constant="10" id="ecR-lJ-cqx"/>
+                                            <constraint firstAttribute="trailing" secondItem="b7x-fc-Ymk" secondAttribute="trailing" id="z4p-lv-1S7"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="chatImageView" destination="ysE-se-Ded" id="cDk-CG-aRr"/>
+                                            <outlet property="dateLabel" destination="x2K-Pj-29I" id="yYs-Pt-FfL"/>
+                                            <outlet property="messageLabel" destination="Q8R-FY-APr" id="Pmr-9i-eh7"/>
+                                            <outlet property="notificationImageView" destination="b7x-fc-Ymk" id="mK2-iK-Xw9"/>
+                                            <outlet property="userNameLabel" destination="9l6-dP-g48" id="MG0-Ho-V9Q"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Bhj-YN-Y4y" id="KdX-Xw-Ds0"/>
+                                    <outlet property="delegate" destination="Bhj-YN-Y4y" id="g8c-Ac-PeM"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nlo-uG-rOI" firstAttribute="top" secondItem="efs-vu-WL7" secondAttribute="bottom" constant="20" id="41U-mC-3s6"/>
+                            <constraint firstAttribute="trailing" secondItem="nlo-uG-rOI" secondAttribute="trailing" id="5n3-QW-ehD"/>
+                            <constraint firstAttribute="width" secondItem="nlo-uG-rOI" secondAttribute="width" id="CGb-bi-MCb"/>
+                            <constraint firstAttribute="centerX" secondItem="nlo-uG-rOI" secondAttribute="centerX" id="Sbk-Wo-gIy"/>
+                            <constraint firstAttribute="height" secondItem="nlo-uG-rOI" secondAttribute="height" id="VTn-xQ-rdH"/>
+                            <constraint firstItem="nlo-uG-rOI" firstAttribute="leading" secondItem="oxI-OU-dZg" secondAttribute="leading" id="gE3-kD-JCU"/>
+                            <constraint firstAttribute="bottom" secondItem="nlo-uG-rOI" secondAttribute="bottom" id="iQe-jo-MJm"/>
+                            <constraint firstAttribute="centerY" secondItem="nlo-uG-rOI" secondAttribute="centerY" id="rsn-vN-D9L"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="41U-mC-3s6"/>
+                                <exclude reference="5n3-QW-ehD"/>
+                                <exclude reference="gE3-kD-JCU"/>
+                                <exclude reference="iQe-jo-MJm"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="Itemc3" id="o76-20-MFN"/>
+                    <connections>
+                        <outlet property="imageDataCollectionView" destination="nlo-uG-rOI" id="Umi-mC-FJA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cda-LI-THt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-257" y="48"/>
         </scene>
     </scenes>
     <resources>

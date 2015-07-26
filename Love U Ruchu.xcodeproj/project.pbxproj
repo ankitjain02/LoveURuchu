@@ -41,8 +41,8 @@
 		BC67E42A1B3F192700CC2DF7 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67E4291B3F192700CC2DF7 /* SplashViewController.m */; };
 		BC749DBF1B638F0900CE03B7 /* AugustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC749DBE1B638F0900CE03B7 /* AugustViewController.m */; };
 		BC749DC31B638F4600CE03B7 /* HYBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC749DC21B638F4600CE03B7 /* HYBubbleButton.m */; };
-		BC749DC61B639B2A00CE03B7 /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC749DC51B639B2A00CE03B7 /* ImagesTableViewController.m */; };
-		BC749DC91B639F2400CE03B7 /* ImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC749DC81B639F2400CE03B7 /* ImagesTableViewCell.m */; };
+		BC749DCD1B64E78900CE03B7 /* IconImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC749DCC1B64E78900CE03B7 /* IconImagesViewController.m */; };
+		BC749DD11B64E81B00CE03B7 /* YALChatDemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC749DD01B64E81B00CE03B7 /* YALChatDemoCollectionViewCell.m */; };
 		BC89AE221B405A62005C1828 /* Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89AE211B405A62005C1828 /* Popup.m */; };
 		BC89AE251B405AB5005C1828 /* ImpDatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89AE241B405AB5005C1828 /* ImpDatesViewController.m */; };
 		BC8C87521B3E6A8700DA4672 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8C87511B3E6A8700DA4672 /* MessagesViewController.m */; };
@@ -121,10 +121,10 @@
 		BC749DBE1B638F0900CE03B7 /* AugustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AugustViewController.m; sourceTree = "<group>"; };
 		BC749DC11B638F4600CE03B7 /* HYBubbleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBubbleButton.h; sourceTree = "<group>"; };
 		BC749DC21B638F4600CE03B7 /* HYBubbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBubbleButton.m; sourceTree = "<group>"; };
-		BC749DC41B639B2A00CE03B7 /* ImagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
-		BC749DC51B639B2A00CE03B7 /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
-		BC749DC71B639F2400CE03B7 /* ImagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewCell.h; sourceTree = "<group>"; };
-		BC749DC81B639F2400CE03B7 /* ImagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewCell.m; sourceTree = "<group>"; };
+		BC749DCB1B64E78900CE03B7 /* IconImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconImagesViewController.h; sourceTree = "<group>"; };
+		BC749DCC1B64E78900CE03B7 /* IconImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconImagesViewController.m; sourceTree = "<group>"; };
+		BC749DCF1B64E81B00CE03B7 /* YALChatDemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALChatDemoCollectionViewCell.h; sourceTree = "<group>"; };
+		BC749DD01B64E81B00CE03B7 /* YALChatDemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALChatDemoCollectionViewCell.m; sourceTree = "<group>"; };
 		BC89AE201B405A62005C1828 /* Popup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Popup.h; sourceTree = "<group>"; };
 		BC89AE211B405A62005C1828 /* Popup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Popup.m; sourceTree = "<group>"; };
 		BC89AE231B405AB5005C1828 /* ImpDatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpDatesViewController.h; sourceTree = "<group>"; };
@@ -251,6 +251,7 @@
 		BC4826DC1B2326F1001215CB /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BC749DCE1B64E81B00CE03B7 /* ChatDemoCollectionViewCell */,
 				BC749DC01B638F4600CE03B7 /* HYBubbleButton */,
 				BC89AE1F1B405A62005C1828 /* Popup */,
 				BC67E4241B3F16C400CC2DF7 /* VMButtonCircleFun */,
@@ -274,10 +275,8 @@
 		BC4826EC1B256FA3001215CB /* VCs */ = {
 			isa = PBXGroup;
 			children = (
-				BC749DC71B639F2400CE03B7 /* ImagesTableViewCell.h */,
-				BC749DC81B639F2400CE03B7 /* ImagesTableViewCell.m */,
-				BC749DC41B639B2A00CE03B7 /* ImagesTableViewController.h */,
-				BC749DC51B639B2A00CE03B7 /* ImagesTableViewController.m */,
+				BC749DCB1B64E78900CE03B7 /* IconImagesViewController.h */,
+				BC749DCC1B64E78900CE03B7 /* IconImagesViewController.m */,
 				BC749DBD1B638F0900CE03B7 /* AugustViewController.h */,
 				BC749DBE1B638F0900CE03B7 /* AugustViewController.m */,
 				BC89AE231B405AB5005C1828 /* ImpDatesViewController.h */,
@@ -359,6 +358,15 @@
 				BC749DC21B638F4600CE03B7 /* HYBubbleButton.m */,
 			);
 			path = HYBubbleButton;
+			sourceTree = "<group>";
+		};
+		BC749DCE1B64E81B00CE03B7 /* ChatDemoCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BC749DCF1B64E81B00CE03B7 /* YALChatDemoCollectionViewCell.h */,
+				BC749DD01B64E81B00CE03B7 /* YALChatDemoCollectionViewCell.m */,
+			);
+			path = ChatDemoCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		BC89AE1F1B405A62005C1828 /* Popup */ = {
@@ -541,6 +549,8 @@
 				BC4826DB1B21DEC1001215CB /* FlipMessageCell.m in Sources */,
 				BC67E42A1B3F192700CC2DF7 /* SplashViewController.m in Sources */,
 				BC749DC31B638F4600CE03B7 /* HYBubbleButton.m in Sources */,
+				BC749DD11B64E81B00CE03B7 /* YALChatDemoCollectionViewCell.m in Sources */,
+				BC749DCD1B64E78900CE03B7 /* IconImagesViewController.m in Sources */,
 				BC4827281B25CB87001215CB /* VPRubberLayout.m in Sources */,
 				BCAF7A221B3EFD3E005A2A16 /* UIImage+ImageEffects.m in Sources */,
 				BC8C87521B3E6A8700DA4672 /* MessagesViewController.m in Sources */,
@@ -549,10 +559,8 @@
 				BC4826B91B2082AF001215CB /* JuneViewController.m in Sources */,
 				BC4826B61B2082AF001215CB /* AppDelegate.m in Sources */,
 				BC4826F21B259909001215CB /* InitialViewController.m in Sources */,
-				BC749DC61B639B2A00CE03B7 /* ImagesTableViewController.m in Sources */,
 				BC67E4271B3F16C400CC2DF7 /* VMButtonCircleFun.m in Sources */,
 				BCAF7A071B3EF87B005A2A16 /* BaseViewController.m in Sources */,
-				BC749DC91B639F2400CE03B7 /* ImagesTableViewCell.m in Sources */,
 				BC4827171B25B2DD001215CB /* VMGearLoadingView.m in Sources */,
 				BC89AE221B405A62005C1828 /* Popup.m in Sources */,
 				BCAF7A251B3F03CD005A2A16 /* JulyViewController.m in Sources */,

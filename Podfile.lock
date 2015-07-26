@@ -4,6 +4,7 @@ PODS:
   - FSDAirportFlipLabel (0.1.0)
   - JTSlideShadowAnimation (1.0.1)
   - MZTimerLabel (0.5.2)
+  - Ophiuchus (1.0.3)
   - RNBlurredSideViewController (1.0.2)
   - SWBufferedToast (0.1.5)
 
@@ -13,6 +14,7 @@ DEPENDENCIES:
   - FSDAirportFlipLabel
   - JTSlideShadowAnimation (~> 1.0)
   - MZTimerLabel
+  - Ophiuchus (~> 1.0.3)
   - RNBlurredSideViewController
   - SWBufferedToast
 
@@ -22,6 +24,7 @@ SPEC CHECKSUMS:
   FSDAirportFlipLabel: 05a6bb9cefa3694f57284bb99009c07bec7459ca
   JTSlideShadowAnimation: abe7fb7b0be0690229e6fe6e93e77998e8cfe279
   MZTimerLabel: 1bce6b93ec9f017fffad7ea7ee2bc721b53b64ee
+  Ophiuchus: 486de58f85284047835a26e23ac9fe4fe2255391
   RNBlurredSideViewController: de895d7f7ba4fd5ecc8f2a3cb0a6b43ccc822e28
   SWBufferedToast: 276c19272fc588f4c6de7218aedb39423407d7a9
 

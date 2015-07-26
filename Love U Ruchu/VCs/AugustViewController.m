@@ -7,7 +7,7 @@
 //
 
 #import "AugustViewController.h"
-#import "ImagesTableViewController.h"
+#import "IconImagesViewController.h"
 
 @interface AugustViewController () {
     NSTimer *timer;
@@ -27,7 +27,8 @@
     self.bubbleButton.maxHeight = 500;
     self.bubbleButton.duration = 9;
     
-    //self.bubbleButton.images = @[[UIImage imageNamed:@"heart1"], [UIImage imageNamed:@"star"], [UIImage imageNamed:@"heart2"], [UIImage imageNamed:@"heart3"], [UIImage imageNamed:@"heartRing"], [UIImage imageNamed:@"heart4"], [UIImage imageNamed:@"heart5"], [UIImage imageNamed:@"ballon1"], [UIImage imageNamed:@"heart6"], [UIImage imageNamed:@"heart7"]];
+    UIImage *inputImage = [UIImage imageNamed:@"background6"];
+    self.backgroundImage.image = inputImage;
 }
 
 -(void)viewWillAppear:(BOOL)animated {
@@ -79,7 +80,7 @@
 }
 
 -(void)changeImages {
-    ImagesTableViewController *augustVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ImagesTableViewController"];
+    IconImagesViewController *augustVC = [self.storyboard instantiateViewControllerWithIdentifier:@"IconImagesViewController"];
     [self.navigationController pushViewController:augustVC animated:YES];
 }
 

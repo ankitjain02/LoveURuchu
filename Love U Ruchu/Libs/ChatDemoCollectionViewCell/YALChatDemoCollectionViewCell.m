@@ -23,6 +23,11 @@
     self.chatImageView.image = image;
     self.userNameLabel.text = name;
     self.messageLabel.text = messageText;
+    if (dateText != nil) {
+        self.accessoryType = YES;
+    } else {
+        self.accessoryType = NO;
+    }
     self.dateLabel.text = dateText;
 }
 
