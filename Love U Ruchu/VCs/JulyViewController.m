@@ -14,7 +14,6 @@
     DGActivityIndicatorView *activityIndicatorView;
     UIButton *commingSoonBtn;
     CGFloat alphaValue;
-    NSTimer *timer;
 }
 
 @end
@@ -29,19 +28,12 @@
     [self.tableView setHidden:YES];
     [self.tableView setBackgroundColor:[UIColor clearColor]];
     [self showLoader];
-    [self updateTime];
+
+    [self performSelector:@selector(removeLoader) withObject:nil afterDelay:3.0f];
+    [self performSelector:@selector(changeAlphaValue) withObject:nil afterDelay:15.0f];
 }
 
 -(void)viewWillAppear:(BOOL)animated {
-    [timer invalidate];
-    timer = nil;
-    
-    timer = [NSTimer scheduledTimerWithTimeInterval:1.0
-                                             target:self
-                                           selector:@selector(updateTime)
-                                           userInfo:nil
-                                            repeats:YES];
-    
     self.view.backgroundColor = [UIColor colorWithRed:208.0f/255.0f green:78.0f/255.0f blue:90.0f/255.0f alpha:1.0f];
     
     // Show navigation bar
@@ -58,30 +50,7 @@
 }
 
 -(void)viewDidDisappear:(BOOL)animated {
-    [timer invalidate];
-    timer = nil;
-}
-
--(void)updateTime
-{
-    // Get date
-    NSDate* date = [self getDate];
     
-    //Get the time left until the specified date
-    NSInteger ti = ((NSInteger)[date timeIntervalSinceNow]);
-    NSInteger seconds = ti % 60;
-    NSInteger minutes = (ti / 60) % 60;
-    NSInteger hours = (ti / 3600) % 24;
-    NSInteger days = (ti / 86400);
-    // NSLog(@"day %d hours %d mins %d sec %d", days, hours, minutes, seconds);
-    if (days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {
-        [timer invalidate];
-        timer = nil;
-        
-        // NSLog(@"==========================Push view controller==========================");
-        [self performSelector:@selector(removeLoader) withObject:nil afterDelay:3.0f];
-        [self performSelector:@selector(changeAlphaValue) withObject:nil afterDelay:15.0f];
-    }
 }
 
 -(void)changeAlphaValue {
