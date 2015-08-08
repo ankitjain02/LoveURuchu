@@ -53,6 +53,7 @@
 		BCAF7A1F1B3EFD1F005A2A16 /* BlurMenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A1D1B3EFD1F005A2A16 /* BlurMenuItemCell.m */; };
 		BCAF7A221B3EFD3E005A2A16 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A211B3EFD3E005A2A16 /* UIImage+ImageEffects.m */; };
 		BCAF7A251B3F03CD005A2A16 /* JulyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A241B3F03CD005A2A16 /* JulyViewController.m */; };
+		BCFF227B1B6E42F800C26761 /* JDFlipNumberViewIOS6.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BCFF227A1B6E42F800C26761 /* JDFlipNumberViewIOS6.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +144,7 @@
 		BCAF7A211B3EFD3E005A2A16 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		BCAF7A231B3F03CD005A2A16 /* JulyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JulyViewController.h; sourceTree = "<group>"; };
 		BCAF7A241B3F03CD005A2A16 /* JulyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JulyViewController.m; sourceTree = "<group>"; };
+		BCFF227A1B6E42F800C26761 /* JDFlipNumberViewIOS6.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberViewIOS6.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 		BC4826DC1B2326F1001215CB /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BCFF22791B6E42F800C26761 /* JDFlipNumberViewIOS6 */,
 				BC749DCE1B64E81B00CE03B7 /* ChatDemoCollectionViewCell */,
 				BC749DC01B638F4600CE03B7 /* HYBubbleButton */,
 				BC89AE1F1B405A62005C1828 /* Popup */,
@@ -391,6 +394,14 @@
 			path = BlurMenu;
 			sourceTree = "<group>";
 		};
+		BCFF22791B6E42F800C26761 /* JDFlipNumberViewIOS6 */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF227A1B6E42F800C26761 /* JDFlipNumberViewIOS6.bundle */,
+			);
+			path = JDFlipNumberViewIOS6;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -490,6 +501,7 @@
 				BC4827101B25B2DD001215CB /* gears 3.png in Resources */,
 				BC48271D1B25C07F001215CB /* Messages.plist in Resources */,
 				BC48270C1B25B2DD001215CB /* gears 1@3x.png in Resources */,
+				BCFF227B1B6E42F800C26761 /* JDFlipNumberViewIOS6.bundle in Resources */,
 				BC48270F1B25B2DD001215CB /* gears 2@3x.png in Resources */,
 				BC4827111B25B2DD001215CB /* gears 3@2x.png in Resources */,
 				BC48270B1B25B2DD001215CB /* gears 1@2x.png in Resources */,
@@ -699,14 +711,14 @@
 			baseConfigurationReference = 4AA556B8B009A731D9E563E7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CLP Power Hong Kong Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CLP Power Hong Kong Limited";
 				INFOPLIST_FILE = "Love U Ruchu/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "db99c3d7-ff41-400a-b95a-d616cb5149ff";
 			};
 			name = Debug;
 		};
@@ -715,14 +727,14 @@
 			baseConfigurationReference = 4A4C603FD4603501C3729E01 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CLP Power Hong Kong Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CLP Power Hong Kong Limited";
 				INFOPLIST_FILE = "Love U Ruchu/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "db99c3d7-ff41-400a-b95a-d616cb5149ff";
 			};
 			name = Release;
 		};

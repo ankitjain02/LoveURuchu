@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-ClearTextLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DGActivityIndicatorView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,7 +34,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-LGPlusButtonsView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Love U Ruchu-BRFlabbyTable.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Love U Ruchu-ClearTextLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -54,12 +69,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Love U Ruchu-MZTimerLabel.xcscheme</key>
+		<key>Pods-Love U Ruchu-LGPlusButtonsView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Love U Ruchu-Ophiuchus.xcscheme</key>
+		<key>Pods-Love U Ruchu-MZTimerLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -79,12 +94,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Love U Ruchu-XHAmazingLoading.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Love U Ruchu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-Love U RuchuTests-BRFlabbyTable.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Love U RuchuTests-ClearTextLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -109,12 +134,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Love U RuchuTests-MZTimerLabel.xcscheme</key>
+		<key>Pods-Love U RuchuTests-LGPlusButtonsView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Love U RuchuTests-Ophiuchus.xcscheme</key>
+		<key>Pods-Love U RuchuTests-MZTimerLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -134,17 +159,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Love U RuchuTests-XHAmazingLoading.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Love U RuchuTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-MZTimerLabel.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Ophiuchus.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -164,6 +189,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-XHAmazingLoading.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -172,167 +202,197 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0D02808EC54A9AACE566B1F8</key>
+		<key>0B1FAC9910A87E2CDA0C65F0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0E9198BE19A8E2A85FB05BB9</key>
+		<key>21E91562B61069106BB74791</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0FCD38054DCBA33859F18B0D</key>
+		<key>2525C8415B1ACFEB3956CB22</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1C24F96861F89C75387CD6EE</key>
+		<key>36D463B5D42972A2D90078FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1D88C32824467DCF0805ABBB</key>
+		<key>3846C9E9CF258437194E341C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>22B0E421F39B6C30DAA44B94</key>
+		<key>3C8A6D5E6E0F8195E7FC1FF2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>28CB58BE6C4C0368226B26D3</key>
+		<key>427FBD60F356F9E3808D5D52</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>394CA5515CA050EFC7A59777</key>
+		<key>42C7DCDD29332659BC8AB1F5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3CF7B801569C70B8606585CF</key>
+		<key>4881F6B12FAE8A6ECC6C057B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>448008C0AA9CF47BC201D801</key>
+		<key>5A79EAA7FCEB109B501AB078</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>48C03F0A27463CDD4F57CDBC</key>
+		<key>607D001D8BB99099AA7178EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>52682EDF8B2C1C04FEC3A630</key>
+		<key>63520085DDF5B1CBC3BB6F07</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>53184D924641C5AF297F5A68</key>
+		<key>639E323DAD9E2088C64000D8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5D3FB5BCF31821C2C67CF8E8</key>
+		<key>6453E2905E92E404D96A5C99</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>625243AAF2AAAC8642093183</key>
+		<key>681D1DA1DAD7E2472BD52DDC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6A7DFFC4D7D2DB0A5914B972</key>
+		<key>73EE6BCD0C21426F7F7934E0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6FA1BE82C9B9241C598211EF</key>
+		<key>7A30E399A2A5D6F211527658</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>737102F7D08736B65D755B1D</key>
+		<key>86C4565456B2972488CDD96C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>78F486381D967ACABF58529B</key>
+		<key>8A47FE68973EE9505F88E922</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B7228AC7B8ACF4CC07401E3</key>
+		<key>9518131BE0BAAAD4D56FA7EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>91908087323F05FBF6910E67</key>
+		<key>975679D966A72EBD28909381</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9827824CF6482AD14BE3582A</key>
+		<key>A77182C97C0FE675B2A4D496</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9D598E3014A0422C21CCD453</key>
+		<key>A8A818D806EEE6F457122540</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A1F1C750F139F586960FF8D0</key>
+		<key>AE98A8D267C3A366A6BC88D3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B00DB6AB1C81A6E0DB5573E1</key>
+		<key>B024F5251C3EDDD9894B8C76</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B0B6BBC7BA886CD4934BEE1B</key>
+		<key>B9E6A34285240C3C5DD92D3A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B5751A4A370A1AD5D93DFA9E</key>
+		<key>BC095072DCB37E2871A17988</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B9A0BD60E65EF9E15ACFFD2B</key>
+		<key>BEED58F0B34D68517E159975</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF9EB5BFE0D1EA79A2822B05</key>
+		<key>C8399ED68287890806C759CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D61E58B35B6D6FEE98495FD6</key>
+		<key>C8F2880AC06EF46999D02DBF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D8613D5510742440F888F76B</key>
+		<key>CF2E7FBDD368F219BE793447</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F18643E494B071449A070CBC</key>
+		<key>D4868ACAB7FEDF52AD09E945</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F92A39173084E3C8822198CF</key>
+		<key>E32045AC9411A89ABD53327B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5A2D4AC4A70A5C5FD498865</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ECC8FA37B1BC3638F1F6DDE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF969E82DCA020C504DAF3E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F627FE2BA087EB005727301F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8B2CED9D07A62C533F90CC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F980C3AFF4B33D77C96F54FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

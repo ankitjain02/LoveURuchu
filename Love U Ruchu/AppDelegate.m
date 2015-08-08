@@ -27,16 +27,11 @@
     NSDateComponents *comps = [[NSDateComponents alloc] init];
     [comps setDay:10];
     
-    if (!month) {
-        [[NSUserDefaults standardUserDefaults] setValue:@"8" forKey:@"GET_DATE"];
-        [[NSUserDefaults standardUserDefaults] synchronize];
-        
-        [comps setMonth:8];
-        [comps setYear:2015];
-    } else {
-        [comps setMonth:[month integerValue]];
-        [comps setYear:2015];
-    }
+    [[NSUserDefaults standardUserDefaults] setValue:@"8" forKey:@"GET_DATE"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    [comps setMonth:8];
+    [comps setYear:2015];
 
     NSCalendar *gregorian = [[NSCalendar alloc]
                              initWithCalendarIdentifier:NSCalendarIdentifierGregorian];

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3CF7B801569C70B8606585CF"
+               BlueprintIdentifier = "C8399ED68287890806C759CC"
                BuildableName = "FSDAirportFlipLabel.bundle"
                BlueprintName = "Pods-Love U Ruchu-FSDAirportFlipLabel-FSDAirportFlipLabel"
                ReferencedContainer = "container:Pods.xcodeproj">

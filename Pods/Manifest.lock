@@ -1,31 +1,37 @@
 PODS:
   - BRFlabbyTable (1.0.0)
+  - ClearTextLabel (1.0.1)
   - DGActivityIndicatorView (1.0)
   - FSDAirportFlipLabel (0.1.0)
   - JTSlideShadowAnimation (1.0.1)
+  - LGPlusButtonsView (1.0.3)
   - MZTimerLabel (0.5.2)
-  - Ophiuchus (1.0.3)
   - RNBlurredSideViewController (1.0.2)
   - SWBufferedToast (0.1.5)
+  - XHAmazingLoading (0.2)
 
 DEPENDENCIES:
   - BRFlabbyTable (~> 1.0)
+  - ClearTextLabel
   - DGActivityIndicatorView
   - FSDAirportFlipLabel
   - JTSlideShadowAnimation (~> 1.0)
+  - LGPlusButtonsView (~> 1.0.0)
   - MZTimerLabel
-  - Ophiuchus (~> 1.0.3)
   - RNBlurredSideViewController
   - SWBufferedToast
+  - XHAmazingLoading
 
 SPEC CHECKSUMS:
   BRFlabbyTable: 6710334ce94379ee0119db6e9917cfadee0c33e0
+  ClearTextLabel: 3ed29df3e4d5545e65cc1371d2f3091ceea8472c
   DGActivityIndicatorView: 980091f8d8cc647a1af7804660272e64aef9e516
   FSDAirportFlipLabel: 05a6bb9cefa3694f57284bb99009c07bec7459ca
   JTSlideShadowAnimation: abe7fb7b0be0690229e6fe6e93e77998e8cfe279
+  LGPlusButtonsView: d10027afc527e4aaae80f69c27e7a5f12a63df2c
   MZTimerLabel: 1bce6b93ec9f017fffad7ea7ee2bc721b53b64ee
-  Ophiuchus: 486de58f85284047835a26e23ac9fe4fe2255391
   RNBlurredSideViewController: de895d7f7ba4fd5ecc8f2a3cb0a6b43ccc822e28
   SWBufferedToast: 276c19272fc588f4c6de7218aedb39423407d7a9
+  XHAmazingLoading: 86da1c59191326ea63e6df7ba3886f3e6ddef032
 
 COCOAPODS: 0.37.2

@@ -8,7 +8,9 @@ pod 'DGActivityIndicatorView'
 pod "FSDAirportFlipLabel"
 pod 'JTSlideShadowAnimation', '~> 1.0'
 pod 'BRFlabbyTable', '~> 1.0'
-pod 'Ophiuchus', '~> 1.0.3'
+pod 'ClearTextLabel'
+pod 'LGPlusButtonsView', '~> 1.0.0'
+pod 'XHAmazingLoading'
 
 target 'Love U Ruchu' do
 

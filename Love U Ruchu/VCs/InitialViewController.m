@@ -12,6 +12,7 @@
 @interface InitialViewController () {
     NSDate *date;
     NSTimer *timer;
+    BOOL isViewVisible;
 }
 
 @end
@@ -19,20 +20,21 @@
 @implementation InitialViewController
 
 -(void)viewDidLoad {
-
+    isViewVisible = YES;
 }
 
 -(void)viewWillAppear:(BOOL)animated {
     // Show navigation bar
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     [self.navigationController.navigationBar setBackgroundColor:self.view.backgroundColor];
-    
+    isViewVisible = YES;
     [self showGearViewOnLoading];
 }
 
 -(void)viewWillDisappear:(BOOL)animated {
     [timer invalidate];
     timer = nil;
+    isViewVisible = NO;
 }
 
 - (void)showGearViewOnLoading {
@@ -58,10 +60,12 @@
 -(void)hideGearViewOnNavigating {
     [VMGearLoadingView hideGearLoadingForView:self.view];
     [self.coupleImage setHidden:NO];
-    AugustViewController *vc =
-    [[UIStoryboard storyboardWithName:@"Main" bundle:NULL]
-     instantiateViewControllerWithIdentifier:@"AugustViewController"];
-    [self.navigationController pushViewController:vc animated:YES];
+    if (isViewVisible) {
+        AugustViewController *vc =
+        [[UIStoryboard storyboardWithName:@"Main" bundle:NULL]
+         instantiateViewControllerWithIdentifier:@"AugustViewController"];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 - (void)startCountdown {

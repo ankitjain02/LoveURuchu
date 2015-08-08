@@ -26,8 +26,8 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self performSelectorOnMainThread:@selector(showInitialView) withObject:nil waitUntilDone:NO];
-    //[self authenticatePopUp];
+    //[self performSelectorOnMainThread:@selector(showInitialView) withObject:nil waitUntilDone:NO];
+    [self authenticatePopUp];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "737102F7D08736B65D755B1D"
+               BlueprintIdentifier = "A77182C97C0FE675B2A4D496"
                BuildableName = "libPods-Love U RuchuTests-MZTimerLabel.a"
                BlueprintName = "Pods-Love U RuchuTests-MZTimerLabel"
                ReferencedContainer = "container:Pods.xcodeproj">

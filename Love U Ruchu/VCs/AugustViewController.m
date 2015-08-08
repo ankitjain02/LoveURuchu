@@ -1,6 +1,6 @@
 //
 //  AugustViewController.m
-//  
+//
 //
 //  Created by Ankit Jain on 25/07/15.
 //
@@ -8,11 +8,21 @@
 
 #import "AugustViewController.h"
 #import "IconImagesViewController.h"
+#import "ClearTextLabel.h"
+#import "XHAmazingLoadingView.h"
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)(((rgbValue) & 0xFF0000) >> 16))/255.0 green:((float)(((rgbValue) & 0xFF00) >> 8))/255.0 blue:((float)((rgbValue) & 0xFF))/255.0 alpha:1.0]
 
 @interface AugustViewController () {
+    NSTimer *imagetimer;
     NSTimer *timer;
     NSArray *selectedImages;
+    BOOL showTime;
 }
+
+@property (nonatomic, strong) XHAmazingLoadingView *amazingLoadingView;
+@property (nonatomic, strong) IBOutlet ClearTextLabel *objCTLbl;
+@property (nonatomic, strong) IBOutlet UIView *flipView;
 
 @end
 
@@ -29,6 +39,27 @@
     
     UIImage *inputImage = [UIImage imageNamed:@"background6"];
     self.backgroundImage.image = inputImage;
+}
+
+#pragma mark helper
+
+- (BOOL)isReverseFlippingDisabled;
+{
+    return [[NSUserDefaults standardUserDefaults] boolForKey:@"reverseFlippingDisabled"];
+}
+
+- (void)addClearText {
+    // ClearTextLabel* objCTLbl = (ClearTextLabel *)self.messageLabel;//[[ClearTextLabel alloc] initWithFrame:self.view.frame];//CGRectMake(20, 100, 280, 368)];
+    self.objCTLbl.text = @"\nHandsome husbands like me are very few. \n\nBut fewer than that are beautiful wives like you. \n\nYou are like a rare pearl in the ocean. \n\nMeant only for me not for everyone.\n\nHappy \n5th month anniversary \nRuchu <3";
+    
+    //self.objCTLbl.text = @"Nothing can stop our anniversary from being happy, as long as I am your hubby and you are my wifey. I love you :) \n Happy 5th month anniverysary Ruchu <3";
+    self.objCTLbl.font = [UIFont fontWithName:@"Arial Rounded MT Bold" size:27.0f];
+    self.objCTLbl.textAlignment = NSTextAlignmentCenter;
+    self.objCTLbl.numberOfLines = 0;
+    self.objCTLbl.layer.cornerRadius = 0.0f;
+    [self.view addSubview:self.objCTLbl];
+    
+    [self.objCTLbl sendSubviewToBack:self.bubbleButton];
 }
 
 -(void)viewWillAppear:(BOOL)animated {
@@ -56,7 +87,16 @@
                                            userInfo:nil
                                             repeats:YES];
     
-    self.view.backgroundColor = [UIColor colorWithRed:208.0f/255.0f green:78.0f/255.0f blue:90.0f/255.0f alpha:1.0f];
+    [imagetimer invalidate];
+    imagetimer = nil;
+    
+    imagetimer = [NSTimer scheduledTimerWithTimeInterval:0.5
+                                                  target:self
+                                                selector:@selector(updateTime)
+                                                userInfo:nil
+                                                 repeats:YES];
+    
+    self.view.backgroundColor = [UIColor colorWithRed:213.0f/255.0f green:142.0f/255.0f blue:156.0f/255.0f alpha:1.0f];
     
     // Show navigation bar
     [self.navigationController setNavigationBarHidden:NO animated:YES];
@@ -72,11 +112,22 @@
     self.navigationItem.rightBarButtonItem = settingsButton;
     
     self.title = @"August";
+    
+    self.amazingLoadingView = [[XHAmazingLoadingView alloc] initWithType:XHAmazingLoadingAnimationTypeStar];
+    self.amazingLoadingView.loadingTintColor = [UIColor redColor];
+    self.amazingLoadingView.backgroundTintColor = [UIColor colorWithRed:213.0f/255.0f green:142.0f/255.0f blue:156.0f/255.0f alpha:1.0f];
+    self.amazingLoadingView.frame = self.view.bounds;
+    [self.view addSubview:self.amazingLoadingView];
+    
+    [self.amazingLoadingView startAnimating];
 }
 
 -(void)viewDidDisappear:(BOOL)animated {
     [timer invalidate];
     timer = nil;
+    
+    [imagetimer invalidate];
+    imagetimer = nil;
 }
 
 -(void)changeImages {
@@ -84,12 +135,14 @@
     [self.navigationController pushViewController:augustVC animated:YES];
 }
 
+-(void)updateImages {
+    if (showTime) {
+        [self startGenerate:nil];
+    }
+}
+
 -(void)updateTime
 {
-    //TODO::
-    [self startGenerate:nil];
-    return;
-    
     // Get date
     NSDate* date = [self getDate];
     
@@ -104,10 +157,17 @@
         [timer invalidate];
         timer = nil;
         
-        // NSLog(@"==========================Push view controller==========================");
-        //[self performSelector:@selector(removeLoader) withObject:nil afterDelay:3.0f];
-        //[self performSelector:@selector(changeAlphaValue) withObject:nil afterDelay:15.0f];
+        showTime = YES;
+        [self.amazingLoadingView stopAnimating];
+        [self.amazingLoadingView removeFromSuperview];
+        
+        [self performSelector:@selector(doAction) withObject:nil afterDelay:1.0f];
     }
+}
+
+- (void)doAction {
+    [self addClearText];
+    [self updateImages];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -116,17 +176,33 @@
 }
 
 - (IBAction)startGenerate:(id)sender {
-    [self.bubbleButton generateBubbleInRandom];
+    if (showTime) {
+        [self.bubbleButton generateBubbleInRandom];
+    }
+    
+}
+
+- (IBAction)flipScreen:(id)sender {
+    if (showTime) {
+        [self.objCTLbl setHidden:!self.objCTLbl.hidden];
+    }
+}
+
+- (IBAction)hideBgImage:(id)sender {
+    if (showTime) {
+        [self.objCTLbl setHidden:!self.objCTLbl.hidden];
+        [self.backgroundImage setHidden:!self.backgroundImage.hidden];
+    }
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

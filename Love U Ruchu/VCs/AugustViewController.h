@@ -15,4 +15,6 @@
 @property (weak, nonatomic) IBOutlet HYBubbleButton *bubbleButton;
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
 
+- (void)changeText:(NSString *)changeString;
+
 @end

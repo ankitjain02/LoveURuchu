@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "625243AAF2AAAC8642093183"
+               BlueprintIdentifier = "681D1DA1DAD7E2472BD52DDC"
                BuildableName = "libPods-Love U Ruchu-DGActivityIndicatorView.a"
                BlueprintName = "Pods-Love U Ruchu-DGActivityIndicatorView"
                ReferencedContainer = "container:Pods.xcodeproj">
