@@ -145,6 +145,7 @@
     } completion:^(BOOL finished) {
         if (finished) {
             [self removeFromSuperview];
+            [self.delegate didDismissToastView:self];
         }
     }];
 }

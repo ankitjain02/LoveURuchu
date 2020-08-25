@@ -22,6 +22,19 @@ DEPENDENCIES:
   - SWBufferedToast
   - XHAmazingLoading
 
+SPEC REPOS:
+  trunk:
+    - BRFlabbyTable
+    - ClearTextLabel
+    - DGActivityIndicatorView
+    - FSDAirportFlipLabel
+    - JTSlideShadowAnimation
+    - LGPlusButtonsView
+    - MZTimerLabel
+    - RNBlurredSideViewController
+    - SWBufferedToast
+    - XHAmazingLoading
+
 SPEC CHECKSUMS:
   BRFlabbyTable: 6710334ce94379ee0119db6e9917cfadee0c33e0
   ClearTextLabel: 3ed29df3e4d5545e65cc1371d2f3091ceea8472c
@@ -34,4 +47,6 @@ SPEC CHECKSUMS:
   SWBufferedToast: 276c19272fc588f4c6de7218aedb39423407d7a9
   XHAmazingLoading: 86da1c59191326ea63e6df7ba3886f3e6ddef032
 
-COCOAPODS: 0.37.2
+PODFILE CHECKSUM: 0c86f76260b765a56623e3d459bc4febcb2706a5
+
+COCOAPODS: 1.9.3

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CE1454F083B3155DAF64F22 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E03736C2E65696C6051BBC /* libPods.a */; };
+		0297821544D3B02AE72A7314 /* libPods-Love U Ruchu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F546CC76DC499E58B819AE88 /* libPods-Love U Ruchu.a */; };
 		BC0A414A1B42D9590033F09C /* ImpDatesToRemember.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC0A41491B42D9590033F09C /* ImpDatesToRemember.plist */; };
 		BC4826B31B2082AF001215CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B21B2082AF001215CB /* main.m */; };
 		BC4826B61B2082AF001215CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826B51B2082AF001215CB /* AppDelegate.m */; };
@@ -54,6 +54,7 @@
 		BCAF7A221B3EFD3E005A2A16 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A211B3EFD3E005A2A16 /* UIImage+ImageEffects.m */; };
 		BCAF7A251B3F03CD005A2A16 /* JulyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7A241B3F03CD005A2A16 /* JulyViewController.m */; };
 		BCFF227B1B6E42F800C26761 /* JDFlipNumberViewIOS6.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BCFF227A1B6E42F800C26761 /* JDFlipNumberViewIOS6.bundle */; };
+		FCCF0C7EFC62D15FDB42C777 /* libPods-Love U RuchuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACC39E650BF7324774C2814 /* libPods-Love U RuchuTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +68,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16E03736C2E65696C6051BBC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A4C603FD4603501C3729E01 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		4AA556B8B009A731D9E563E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		0ACC39E650BF7324774C2814 /* libPods-Love U RuchuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Love U RuchuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EC6A8117528717B1B2D33D /* Pods-Love U Ruchu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love U Ruchu.debug.xcconfig"; path = "Target Support Files/Pods-Love U Ruchu/Pods-Love U Ruchu.debug.xcconfig"; sourceTree = "<group>"; };
+		B105CB0F460EC48943AB6CF8 /* Pods-Love U RuchuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love U RuchuTests.release.xcconfig"; path = "Target Support Files/Pods-Love U RuchuTests/Pods-Love U RuchuTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC0A41491B42D9590033F09C /* ImpDatesToRemember.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ImpDatesToRemember.plist; path = Resource/ImpDatesToRemember.plist; sourceTree = "<group>"; };
 		BC3CBB391B3E87020002818E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC4826AD1B2082AF001215CB /* Love U Ruchu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love U Ruchu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +146,9 @@
 		BCAF7A231B3F03CD005A2A16 /* JulyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JulyViewController.h; sourceTree = "<group>"; };
 		BCAF7A241B3F03CD005A2A16 /* JulyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JulyViewController.m; sourceTree = "<group>"; };
 		BCFF227A1B6E42F800C26761 /* JDFlipNumberViewIOS6.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberViewIOS6.bundle; sourceTree = "<group>"; };
+		DCCC4216F97D49EBD3835DA9 /* Pods-Love U RuchuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love U RuchuTests.debug.xcconfig"; path = "Target Support Files/Pods-Love U RuchuTests/Pods-Love U RuchuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F546CC76DC499E58B819AE88 /* libPods-Love U Ruchu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Love U Ruchu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7305A7D137ECCDEF5F1896 /* Pods-Love U Ruchu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love U Ruchu.release.xcconfig"; path = "Target Support Files/Pods-Love U Ruchu/Pods-Love U Ruchu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CE1454F083B3155DAF64F22 /* libPods.a in Frameworks */,
+				0297821544D3B02AE72A7314 /* libPods-Love U Ruchu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,29 +164,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCF0C7EFC62D15FDB42C777 /* libPods-Love U RuchuTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38F6A2EEFEE28BBD106EED0D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4AA556B8B009A731D9E563E7 /* Pods.debug.xcconfig */,
-				4A4C603FD4603501C3729E01 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7C13E8D7343B72F960E0F741 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				BCAF7A131B3EF951005A2A16 /* Accelerate.framework */,
 				BCAF7A111B3EF94B005A2A16 /* QuartzCore.framework */,
-				16E03736C2E65696C6051BBC /* libPods.a */,
+				F546CC76DC499E58B819AE88 /* libPods-Love U Ruchu.a */,
+				0ACC39E650BF7324774C2814 /* libPods-Love U RuchuTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BBE978AC41D73B84D586B2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54EC6A8117528717B1B2D33D /* Pods-Love U Ruchu.debug.xcconfig */,
+				FD7305A7D137ECCDEF5F1896 /* Pods-Love U Ruchu.release.xcconfig */,
+				DCCC4216F97D49EBD3835DA9 /* Pods-Love U RuchuTests.debug.xcconfig */,
+				B105CB0F460EC48943AB6CF8 /* Pods-Love U RuchuTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		BC4826A41B2082AF001215CB = {
@@ -191,8 +200,8 @@
 				BC4826AF1B2082AF001215CB /* Love U Ruchu */,
 				BC4826C91B2082AF001215CB /* Love U RuchuTests */,
 				BC4826AE1B2082AF001215CB /* Products */,
-				38F6A2EEFEE28BBD106EED0D /* Pods */,
 				7C13E8D7343B72F960E0F741 /* Frameworks */,
+				8BBE978AC41D73B84D586B2D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -409,11 +418,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC4826D01B2082AF001215CB /* Build configuration list for PBXNativeTarget "Love U Ruchu" */;
 			buildPhases = (
-				3D666E2F258ADEC9CB0B9308 /* Check Pods Manifest.lock */,
+				D704BE95A4D6AB325ED7C6E2 /* [CP] Check Pods Manifest.lock */,
 				BC4826A91B2082AF001215CB /* Sources */,
 				BC4826AA1B2082AF001215CB /* Frameworks */,
 				BC4826AB1B2082AF001215CB /* Resources */,
-				B388003CBD0BBF451563AB43 /* Copy Pods Resources */,
+				CCC61B281898701DEBFFBFE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -428,9 +437,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC4826D31B2082AF001215CB /* Build configuration list for PBXNativeTarget "Love U RuchuTests" */;
 			buildPhases = (
+				68EB3970890370BD4792079C /* [CP] Check Pods Manifest.lock */,
 				BC4826C21B2082AF001215CB /* Sources */,
 				BC4826C31B2082AF001215CB /* Frameworks */,
 				BC4826C41B2082AF001215CB /* Resources */,
+				856EFA81112ADEF3FD02EA55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -521,34 +532,88 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3D666E2F258ADEC9CB0B9308 /* Check Pods Manifest.lock */ = {
+		68EB3970890370BD4792079C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Love U RuchuTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B388003CBD0BBF451563AB43 /* Copy Pods Resources */ = {
+		856EFA81112ADEF3FD02EA55 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Love U RuchuTests/Pods-Love U RuchuTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FSDAirportFlipLabel-iOS8.3/FSDAirportFlipLabel.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SWBufferedToast-iOS8.3/SWBufferedToast.bundle",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FSDAirportFlipLabel.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SWBufferedToast.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Love U RuchuTests/Pods-Love U RuchuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCC61B281898701DEBFFBFE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Love U Ruchu/Pods-Love U Ruchu-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FSDAirportFlipLabel-iOS7.0/FSDAirportFlipLabel.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SWBufferedToast-iOS7.0/SWBufferedToast.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FSDAirportFlipLabel.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SWBufferedToast.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Love U Ruchu/Pods-Love U Ruchu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D704BE95A4D6AB325ED7C6E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Love U Ruchu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -708,7 +773,7 @@
 		};
 		BC4826D11B2082AF001215CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AA556B8B009A731D9E563E7 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 54EC6A8117528717B1B2D33D /* Pods-Love U Ruchu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: CLP Power Hong Kong Limited";
@@ -724,7 +789,7 @@
 		};
 		BC4826D21B2082AF001215CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A4C603FD4603501C3729E01 /* Pods.release.xcconfig */;
+			baseConfigurationReference = FD7305A7D137ECCDEF5F1896 /* Pods-Love U Ruchu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: CLP Power Hong Kong Limited";
@@ -740,6 +805,7 @@
 		};
 		BC4826D41B2082AF001215CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCC4216F97D49EBD3835DA9 /* Pods-Love U RuchuTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -762,6 +828,7 @@
 		};
 		BC4826D51B2082AF001215CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B105CB0F460EC48943AB6CF8 /* Pods-Love U RuchuTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
